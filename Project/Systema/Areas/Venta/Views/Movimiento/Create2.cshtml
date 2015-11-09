@@ -1,0 +1,197 @@
+﻿
+
+<div>
+    <div class="tab-pane" id="tab_2">
+        <div class="portlet light bg-inverse">
+            <div class="portlet box blue-dark ">
+                <div class="portlet-title">
+                    <div class="caption">
+                        <i class="fa fa-file"></i>
+                        Nota de Salida
+                    </div>
+                    <div class="tools"><a href="" class="collapse"></a><a href="" class="reload"></a></div>
+                </div>
+                <div class="portlet-body form">
+                    <form action="#" class="form-horizontal">
+                        <div class="form-body">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label class="control-label col-md-3">Cliente</label>
+                                        <div class="col-md-9">
+                                            <div>
+                                                <p class="input-group">
+                                                    <input type="text" class="form-control" ng-model="New.ID_Socio"
+                                                           disabled>
+                                                    <span class="input-group-btn">
+
+                                                        <button type="button" ng-click="addSocio2()" class="btn-icon-only ">
+                                                            <i class="fa fa-search"></i>
+                                                        </button>
+                                                    </span>
+                                                </p>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="control-label col-md-3">N° de Orden</label>
+                                        <div class="col-md-9">
+                                            <div>
+                                                <p class="input-group">
+                                                    <input type="text" class="form-control" ng-model="New.ID_Orden"
+                                                           disabled>
+                                                    <span class="input-group-btn">
+
+                                                        <button type="button" ng-click="addOrdenNew2()" class="btn-icon-only ">
+                                                            <i class="fa fa-search"></i>
+                                                        </button>
+                                                    </span>
+                                                </p>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="control-label col-md-3">Almacen</label>
+                                        <div class="col-md-9">
+                                            <select ng-model="New.ID_Almacen" class="form-control"
+                                                    data-ng-options="a.ID_Almacen as a.Descripcion_Almacen for a in AlmacenList"></select>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label class="col-md-3 control-label">Tipo de Documento</label>
+                                        <div class="col-md-9">
+                                            <select ng-model="New.TipoDocumento" class="form-control"
+                                                    data-ng-options="a.Codigo as a.Descripcion for a in FormaList"></select>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-md-3 control-label">Numero de Documento</label>
+                                        <div class="col-md-9">
+                                            <input type="text" class="form-control input-medium" placeholder=""
+                                                   ng-model="New.NroDocumento">
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label class="col-md-3 control-label">Fecha de Contabilización</label>
+                                        <div class="col-md-9">
+                                            <input type="text" class="form-control input-inline input-medium" datepicker-popup="dd/MM/yyyy"
+                                                   ng-model="New.FechaContabilidad" value="{{New.Fchope | date:'dd/MM/yyyy'}}"
+                                                   is-open="opened1" min-date="minDate" max-date="'2019-06-22'" datepicker-options="dateOptions"
+                                                   ng-required="true" close-text="Close" disabled ng-change="DescuentoListar()" />
+                                            <span class=""><button type="button" class="btn btn-default" ng-click="open1($event)" ng-disabled="disabled"><i class="glyphicon glyphicon-calendar"></i></button></span>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label class="col-md-3 control-label">Fecha de Emisión</label>
+                                        <div class="col-md-9">
+                                            <input type="text" class="form-control input-inline input-medium" datepicker-popup="dd/MM/yyyy"
+                                                   ng-model="New.FechaEmision" value="{{New.Fchope | date:'dd/MM/yyyy'}}"
+                                                   is-open="opened" min-date="minDate" max-date="'2019-06-22'" datepicker-options="dateOptions"
+                                                   ng-required="true" close-text="Close" disabled ng-change="DescuentoListar()" />
+                                            <span class=""><button type="button" class="btn btn-default" ng-click="open($event)" ng-disabled="disabled"><i class="glyphicon glyphicon-calendar"></i></button></span>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-md-3 control-label">Fecha de Entrega</label>
+                                        <div class="col-md-9">
+                                            <input type="text" class="form-control input-inline input-medium" datepicker-popup="dd/MM/yyyy"
+                                                   ng-model="New.FechaEntrega" value="{{New.Fchope | date:'dd/MM/yyyy'}}"
+                                                   is-open="opened2" min-date="minDate" max-date="'2019-06-22'" datepicker-options="dateOptions"
+                                                   ng-required="true" close-text="Close" disabled ng-change="DescuentoListar()" />
+                                            <span class=""><button type="button" class="btn btn-default" ng-click="open2($event)" ng-disabled="disabled"><i class="glyphicon glyphicon-calendar"></i></button></span>
+                                        </div>
+                                    </div>
+
+
+
+                                </div>
+                                <div class="portlet-title ">
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="col-md-12">
+                                            <div class="portlet box">
+                                                <div class="portlet box blue-dark">
+                                                    <div class="portlet-title">
+                                                        <div class="caption">
+                                                            <i class="fa fa-gift"></i>
+                                                            Productos
+                                                        </div>
+
+
+
+                                                        <div class="tools"><a href="" class="collapse"></a><a href="" class="reload"></a></div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="">
+                                                    <div class="table-responsive">
+                                                        <table class="table table-striped table-bordered table-hover">
+                                                            <thead>
+                                                                <tr>
+                                                                    <th>Codigo</th>
+                                                                    <th>Descripción</th>
+                                                                    <th>Cantidad OC</th>
+                                                                    <th>Unidad de Medida</th>
+                                                                    <th>Atendido</th>
+                                                                    <th>Lote</th>
+                                                                    <th>Cantidad NI</th>
+                                                                    <th>Cantidad x Me.</th>
+                                                                    <th>Faltante</th>
+                                                                </tr>
+                                                            </thead>
+                                                            <tbody>
+                                                                <tr ng-repeat="item in DetalleOrdenVentaList">
+                                                                    <td>{{item.Codigo_Producto}}</td>
+                                                                    <td>{{item.Descripcion_Producto}}</td>
+                                                                    <td>{{item.Cantidad}}</td>
+                                                                    <td>{{item.Nombre}}</td>
+                                                                    <td>{{item.Atendido}}</td>
+                                                                    <td>{{item.Lote}}</td>
+                                                                    <td><input type="text" class="form-control" ng-model="item.CantidadMovimiento" ng-change="Calcular2()"></td>
+                                                                    <td><input type="text" class="form-control" ng-model="item.CantidadxMe"></td>
+                                                                    <td><input type="text" class="form-control text-right" ng-model="item.Faltante" disabled></td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <div class="form-actions">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="row">
+                                        <div class="col-md-offset-3 col-md-9">
+                                            <button type="button" class="btn blue-dark" ng-click="SaveNew2()" ng-disabled="disabled">Grabar</button>
+                                            <button type="button" class="btn default" ng-click="Cancel2()">Cancelar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                </div>
+                            </div>
+                        </div>
+
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

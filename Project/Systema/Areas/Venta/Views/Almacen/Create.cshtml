@@ -1,0 +1,124 @@
+﻿
+
+
+
+
+<div>
+
+
+
+
+    <div class="portlet box blue-dark ">
+        <div class="portlet-title">
+            <div class="caption">
+                <i class="fa fa-gift"></i>
+
+                Almacen
+            </div>
+            <div class="tools">
+                <a href="" class="collapse">
+                </a>
+
+                <a href="" class="reload">
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="portlet-body form">
+
+
+            <form class="form-horizontal" role="form" id="FormMovbco" name="FormGrupo">
+                <div class="form-body">
+
+                    <div class="form-group">
+                        <label class="col-md-3 control-label">Codigo</label>
+                        <div class="col-md-9">
+                            <input type="text" class="form-control"
+                                   ng-model="New.Codigo_Almacen">
+
+                        </div>
+                    </div>
+
+
+                    <div class="form-group">
+                        <label class="col-md-3 control-label">Descripcion</label>
+                        <div class="col-md-9">
+                            <input type="text" class="form-control"
+                                   ng-model="New.Descripcion_Almacen">
+
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-md-3 control-label">Direccion</label>
+                        <div class="col-md-9">
+                            <input type="text" class="form-control"
+                                   ng-model="New.Direccion_Almacen">
+
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-md-3 control-label">Sucursal </label>
+                        <div class="col-md-3">
+                            <select ng-model="New.ID_Sucursal" class="form-control" ng-change="SelectSucursal()"
+                                    data-ng-options="a.ID_Sucursal as a.Descripcion_Sucursal for a in SucursalList"></select>
+                        </div>
+                    </div>
+
+
+                    <div class="form-group">
+                        <label class="col-md-3 control-label">Tipo de Almacen </label>
+                        <div class="col-md-9">
+                            <select ng-model="New.Tipo_Almacen" id="Tipo_Almacen" class="form-control">
+                                <option>Físico</option>
+                                <option>Lógico</option>
+                            </select>
+
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="form-actions">
+                    <div class="row">
+                        <div class="col-md-offset-3 col-md-9">
+                            <button type="submit" class="btn blue-dark" ng-click="SaveNew()" ng-disabled="!New.Codigo_Almacen || !New.Descripcion_Almacen || !New.Direccion_Almacen || !New.ID_Sucursal || !New.Tipo_Almacen">Grabar</button>
+                            <button type="button" class="btn default" ng-click="Cancel()">Cancelar</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+        
+
+    </div>
+
+    
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

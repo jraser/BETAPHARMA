@@ -1,0 +1,90 @@
+﻿
+
+
+
+
+<div>
+
+
+
+
+    <div class="portlet box blue-dark ">
+        <div class="portlet-title">
+            <div class="caption">
+                <i class="fa fa-gift"></i>
+
+                Sub Categoria
+            </div>
+            <div class="tools">
+                <a href="" class="collapse">
+                </a>
+
+                <a href="" class="reload">
+                </a>
+
+            </div>
+
+        </div>
+        <div class="portlet-body form">
+            <form class="form-horizontal" role="form" id="FormMovbco" name="FormGrupo">
+                <div class="form-body">
+                    
+
+                    
+                    
+                    <div class="form-group">
+                        <label class="col-md-3 control-label">Categoria </label>
+                        <div class="col-md-3">
+                            <select ng-model="New.ID_Categoria" class="form-control" ng-change="SelectCategoria()"
+                                    data-ng-options="a.ID_Categoria as a.Nombre for a in CategoriaList"></select>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label class="col-md-3 control-label">Sub categoria </label>
+                        <div class="col-md-9">
+                            <input type="text" class="form-control input-inline input-medium"
+                                   ng-model="New.Nombre">
+
+                        </div>
+                    </div>
+
+                    
+
+                </div>
+
+
+                <div class="form-actions">
+                    <div class="row">
+                        <div class="col-md-offset-3 col-md-9">
+                            <button type="submit" class="btn blue-dark" ng-click="SaveNew()" ng-disabled="!New.ID_Categoria || !New.Nombre">Grabar</button>
+                            <button type="button" class="btn default" ng-click="Cancel()">Cancelar</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

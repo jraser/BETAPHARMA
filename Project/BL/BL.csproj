@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C98C8189-243E-4B5C-B0AE-20C44B79263F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BL</RootNamespace>
+    <AssemblyName>BL</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Configuracion\ConceptoBL.cs" />
+    <Compile Include="Configuracion\TabGenBL.cs" />
+    <Compile Include="Contabilidad\CuentaBL.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SocioNegocio\DireccionBL.cs" />
+    <Compile Include="SocioNegocio\GrupoBL.cs" />
+    <Compile Include="SocioNegocio\SocioNegocioBL.cs" />
+    <Compile Include="Venta\AlmacenBL.cs" />
+    <Compile Include="Venta\CategoriaBL.cs" />
+    <Compile Include="Venta\DescuentoGrupoBL.cs" />
+    <Compile Include="Venta\DescuentoProductoBL.cs" />
+    <Compile Include="Venta\DetalleMovimientoBL.cs" />
+    <Compile Include="Venta\DetalleOrdenCompraBL.cs" />
+    <Compile Include="Venta\DetalleOrdenVentaBL.cs" />
+    <Compile Include="Venta\ListaPrecioBL.cs" />
+    <Compile Include="Venta\MarcaBL.cs" />
+    <Compile Include="Venta\MovimientoBL.cs" />
+    <Compile Include="Venta\OrdenCompraBL.cs" />
+    <Compile Include="Venta\OrdenVentaBL.cs" />
+    <Compile Include="Venta\PrecioBL.cs" />
+    <Compile Include="Venta\ProductoBL.cs" />
+    <Compile Include="Venta\Requerimientos.cs" />
+    <Compile Include="Venta\StockBL.cs" />
+    <Compile Include="Venta\SubCategoriaBL.cs" />
+    <Compile Include="Venta\SucursalBL.cs" />
+    <Compile Include="Venta\UnidadMedidaBL.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Datos\Datos.csproj">
+      <Project>{b7b7d1fd-35c1-4bf8-a934-c415e4797bdf}</Project>
+      <Name>Datos</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Entity\Entity.csproj">
+      <Project>{e29b0c8f-c783-45a5-9045-334f8bcf8496}</Project>
+      <Name>Entity</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

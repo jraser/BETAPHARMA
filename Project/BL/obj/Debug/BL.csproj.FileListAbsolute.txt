@@ -1,0 +1,111 @@
+D:\proyect\Project\BL\bin\Debug\BL.dll
+D:\proyect\Project\BL\bin\Debug\BL.pdb
+D:\proyect\Project\BL\bin\Debug\Datos.dll
+D:\proyect\Project\BL\bin\Debug\Entity.dll
+D:\proyect\Project\BL\bin\Debug\EntityFramework.dll
+D:\proyect\Project\BL\bin\Debug\Datos.pdb
+D:\proyect\Project\BL\bin\Debug\Entity.pdb
+D:\proyect\Project\BL\bin\Debug\EntityFramework.xml
+D:\proyect\Project\BL\obj\Debug\BL.csprojResolveAssemblyReference.cache
+D:\proyect\Project\BL\obj\Debug\BL.dll
+D:\proyect\Project\BL\obj\Debug\BL.pdb
+C:\Users\Méndez\Desktop\vially\VisionesWeb\Project\Project\BL\obj\Debug\BL.csprojResolveAssemblyReference.cache
+D:\proyecto\Project\Project\Project\BL\bin\Debug\BL.dll
+D:\proyecto\Project\Project\Project\BL\bin\Debug\BL.pdb
+D:\proyecto\Project\Project\Project\BL\bin\Debug\Datos.dll
+D:\proyecto\Project\Project\Project\BL\bin\Debug\Entity.dll
+D:\proyecto\Project\Project\Project\BL\bin\Debug\EntityFramework.dll
+D:\proyecto\Project\Project\Project\BL\bin\Debug\Datos.pdb
+D:\proyecto\Project\Project\Project\BL\bin\Debug\Entity.pdb
+D:\proyecto\Project\Project\Project\BL\bin\Debug\EntityFramework.xml
+D:\proyecto\Project\Project\Project\BL\obj\Debug\BL.csprojResolveAssemblyReference.cache
+D:\proyecto\Project\Project\Project\BL\obj\Debug\BL.dll
+D:\proyecto\Project\Project\Project\BL\obj\Debug\BL.pdb
+D:\vc_n\Project\31072015\Project\BL\bin\Debug\BL.dll
+D:\vc_n\Project\31072015\Project\BL\bin\Debug\BL.pdb
+D:\vc_n\Project\31072015\Project\BL\bin\Debug\Datos.dll
+D:\vc_n\Project\31072015\Project\BL\bin\Debug\Entity.dll
+D:\vc_n\Project\31072015\Project\BL\bin\Debug\EntityFramework.dll
+D:\vc_n\Project\31072015\Project\BL\bin\Debug\Datos.pdb
+D:\vc_n\Project\31072015\Project\BL\bin\Debug\Entity.pdb
+D:\vc_n\Project\31072015\Project\BL\bin\Debug\EntityFramework.xml
+D:\vc_n\Project\31072015\Project\BL\obj\Debug\BL.csprojResolveAssemblyReference.cache
+D:\vc_n\Project\31072015\Project\BL\obj\Debug\BL.dll
+D:\vc_n\Project\31072015\Project\BL\obj\Debug\BL.pdb
+C:\archivo escritorio 10-08-2015\VISIONESWEB\vc_n\Project\31072015\Project\BL\bin\Debug\BL.dll
+C:\archivo escritorio 10-08-2015\VISIONESWEB\vc_n\Project\31072015\Project\BL\bin\Debug\BL.pdb
+C:\archivo escritorio 10-08-2015\VISIONESWEB\vc_n\Project\31072015\Project\BL\bin\Debug\Datos.dll
+C:\archivo escritorio 10-08-2015\VISIONESWEB\vc_n\Project\31072015\Project\BL\bin\Debug\Entity.dll
+C:\archivo escritorio 10-08-2015\VISIONESWEB\vc_n\Project\31072015\Project\BL\bin\Debug\EntityFramework.dll
+C:\archivo escritorio 10-08-2015\VISIONESWEB\vc_n\Project\31072015\Project\BL\bin\Debug\Datos.pdb
+C:\archivo escritorio 10-08-2015\VISIONESWEB\vc_n\Project\31072015\Project\BL\bin\Debug\Entity.pdb
+C:\archivo escritorio 10-08-2015\VISIONESWEB\vc_n\Project\31072015\Project\BL\bin\Debug\EntityFramework.xml
+C:\archivo escritorio 10-08-2015\VISIONESWEB\vc_n\Project\31072015\Project\BL\obj\Debug\BL.csprojResolveAssemblyReference.cache
+C:\archivo escritorio 10-08-2015\VISIONESWEB\vc_n\Project\31072015\Project\BL\obj\Debug\BL.dll
+C:\archivo escritorio 10-08-2015\VISIONESWEB\vc_n\Project\31072015\Project\BL\obj\Debug\BL.pdb
+C:\Users\Administrador.VIWEB03\Desktop\SISTEMA_BETA-PHARMA\Project\BL\obj\Debug\BL.csprojResolveAssemblyReference.cache
+C:\Users\Administrador.VIWEB03\Desktop\SISTEMA_BETA-PHARMA\Project\BL\bin\Debug\BL.dll
+C:\Users\Administrador.VIWEB03\Desktop\SISTEMA_BETA-PHARMA\Project\BL\bin\Debug\BL.pdb
+C:\Users\Administrador.VIWEB03\Desktop\SISTEMA_BETA-PHARMA\Project\BL\bin\Debug\Datos.dll
+C:\Users\Administrador.VIWEB03\Desktop\SISTEMA_BETA-PHARMA\Project\BL\bin\Debug\Entity.dll
+C:\Users\Administrador.VIWEB03\Desktop\SISTEMA_BETA-PHARMA\Project\BL\bin\Debug\EntityFramework.dll
+C:\Users\Administrador.VIWEB03\Desktop\SISTEMA_BETA-PHARMA\Project\BL\bin\Debug\Datos.pdb
+C:\Users\Administrador.VIWEB03\Desktop\SISTEMA_BETA-PHARMA\Project\BL\bin\Debug\Entity.pdb
+C:\Users\Administrador.VIWEB03\Desktop\SISTEMA_BETA-PHARMA\Project\BL\bin\Debug\EntityFramework.xml
+C:\Users\Administrador.VIWEB03\Desktop\SISTEMA_BETA-PHARMA\Project\BL\obj\Debug\BL.dll
+C:\Users\Administrador.VIWEB03\Desktop\SISTEMA_BETA-PHARMA\Project\BL\obj\Debug\BL.pdb
+D:\Proyecto\Net\Project\BL\obj\Debug\BL.csprojResolveAssemblyReference.cache
+D:\Proyecto\Net\Project\BL\bin\Debug\BL.dll
+D:\Proyecto\Net\Project\BL\bin\Debug\BL.pdb
+D:\Proyecto\Net\Project\BL\bin\Debug\Datos.dll
+D:\Proyecto\Net\Project\BL\bin\Debug\Entity.dll
+D:\Proyecto\Net\Project\BL\bin\Debug\EntityFramework.dll
+D:\Proyecto\Net\Project\BL\bin\Debug\Datos.pdb
+D:\Proyecto\Net\Project\BL\bin\Debug\Entity.pdb
+D:\Proyecto\Net\Project\BL\bin\Debug\EntityFramework.xml
+D:\Proyecto\Net\Project\BL\obj\Debug\BL.dll
+D:\Proyecto\Net\Project\BL\obj\Debug\BL.pdb
+C:\Users\Administrador.VIWEB03\Desktop\Project\BL\bin\Debug\BL.dll
+C:\Users\Administrador.VIWEB03\Desktop\Project\BL\bin\Debug\BL.pdb
+C:\Users\Administrador.VIWEB03\Desktop\Project\BL\bin\Debug\Datos.dll
+C:\Users\Administrador.VIWEB03\Desktop\Project\BL\bin\Debug\Entity.dll
+C:\Users\Administrador.VIWEB03\Desktop\Project\BL\bin\Debug\EntityFramework.dll
+C:\Users\Administrador.VIWEB03\Desktop\Project\BL\bin\Debug\Datos.pdb
+C:\Users\Administrador.VIWEB03\Desktop\Project\BL\bin\Debug\Entity.pdb
+C:\Users\Administrador.VIWEB03\Desktop\Project\BL\bin\Debug\EntityFramework.xml
+C:\Users\Administrador.VIWEB03\Desktop\Project\BL\obj\Debug\BL.csprojResolveAssemblyReference.cache
+C:\Users\Administrador.VIWEB03\Desktop\Project\BL\obj\Debug\BL.dll
+C:\Users\Administrador.VIWEB03\Desktop\Project\BL\obj\Debug\BL.pdb
+C:\Users\User\Desktop\ultimo\Project\BL\bin\Debug\BL.dll
+C:\Users\User\Desktop\ultimo\Project\BL\bin\Debug\BL.pdb
+C:\Users\User\Desktop\ultimo\Project\BL\bin\Debug\Datos.dll
+C:\Users\User\Desktop\ultimo\Project\BL\bin\Debug\Entity.dll
+C:\Users\User\Desktop\ultimo\Project\BL\bin\Debug\EntityFramework.dll
+C:\Users\User\Desktop\ultimo\Project\BL\bin\Debug\Datos.pdb
+C:\Users\User\Desktop\ultimo\Project\BL\bin\Debug\Entity.pdb
+C:\Users\User\Desktop\ultimo\Project\BL\bin\Debug\EntityFramework.xml
+C:\Users\User\Desktop\ultimo\Project\BL\obj\Debug\BL.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\ultimo\Project\BL\obj\Debug\BL.dll
+C:\Users\User\Desktop\ultimo\Project\BL\obj\Debug\BL.pdb
+D:\Proyecto VW\Net\Project\BL\bin\Debug\BL.dll
+D:\Proyecto VW\Net\Project\BL\bin\Debug\BL.pdb
+D:\Proyecto VW\Net\Project\BL\bin\Debug\Datos.dll
+D:\Proyecto VW\Net\Project\BL\bin\Debug\Entity.dll
+D:\Proyecto VW\Net\Project\BL\bin\Debug\EntityFramework.dll
+D:\Proyecto VW\Net\Project\BL\bin\Debug\Datos.pdb
+D:\Proyecto VW\Net\Project\BL\bin\Debug\Entity.pdb
+D:\Proyecto VW\Net\Project\BL\bin\Debug\EntityFramework.xml
+D:\Proyecto VW\Net\Project\BL\obj\Debug\BL.csprojResolveAssemblyReference.cache
+D:\Proyecto VW\Net\Project\BL\obj\Debug\BL.dll
+D:\Proyecto VW\Net\Project\BL\obj\Debug\BL.pdb
+C:\Users\Royer\Desktop\REV\Project\BL\bin\Debug\BL.dll
+C:\Users\Royer\Desktop\REV\Project\BL\bin\Debug\BL.pdb
+C:\Users\Royer\Desktop\REV\Project\BL\bin\Debug\Datos.dll
+C:\Users\Royer\Desktop\REV\Project\BL\bin\Debug\Entity.dll
+C:\Users\Royer\Desktop\REV\Project\BL\bin\Debug\EntityFramework.dll
+C:\Users\Royer\Desktop\REV\Project\BL\bin\Debug\Datos.pdb
+C:\Users\Royer\Desktop\REV\Project\BL\bin\Debug\Entity.pdb
+C:\Users\Royer\Desktop\REV\Project\BL\bin\Debug\EntityFramework.xml
+C:\Users\Royer\Desktop\REV\Project\BL\obj\Debug\BL.csprojResolveAssemblyReference.cache
+C:\Users\Royer\Desktop\REV\Project\BL\obj\Debug\BL.dll
+C:\Users\Royer\Desktop\REV\Project\BL\obj\Debug\BL.pdb

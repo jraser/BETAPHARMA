@@ -1,0 +1,67 @@
+﻿
+<div class="portlet-body">
+    <div class="table-responsive">
+
+
+        <div class="col-md-12 portlet-body  ">
+
+            <div class="modal-header">
+                <h3 class="modal-title">Lista de Descuentos</h3>
+            </div>
+
+
+            <table class="table <!--table-striped--> table-bordered table-advance table-hover">
+                <thead>
+                    <tr>
+                        <th>
+                            Nombre
+                        </th>
+                        <th>
+                            Descripcion
+                        </th>
+                        <th>Descuento %</th>
+                        <th></th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr ng-repeat="item in DescuentoList">
+                        <td>
+
+                            {{item.Nombre}}
+                        </td>
+                        <td>
+                            {{item.Descripcion}}
+                        </td>
+                        <td>{{item.PorcDscto}}</td>
+
+                        <td align="center">
+                            <input type="radio"
+                                   ng-click="Select(item)"
+                                   ng-checked="item.checked">
+                        </td>
+
+                    </tr>
+
+                </tbody>
+            </table>
+
+
+
+
+
+
+
+
+            <div class="modal-footer">
+                <button class="btn btn-primary" ng-click="ok()">Aceptar</button>
+                <button class="btn btn-warning" ng-click="cancel()">Cancelar</button>
+            </div>
+        </div>
+
+
+
+
+
+    </div>
+</div>

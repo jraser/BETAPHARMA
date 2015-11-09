@@ -1,0 +1,97 @@
+﻿
+
+<div class="modal-header">
+    <h3 class="modal-title">Producto de la Orden de Venta</h3>
+</div>
+<div class="modal-body">
+    <form class="form-horizontal">
+
+
+        <input type="text" class="form-control text-right" ng-model="New.ID_Socio" disabled style="visibility:hidden">
+        <input type="text" class="form-control text-right" ng-model="New.ID_Orden" disabled style="visibility:hidden">
+
+        <div class="form-group">
+            <label class="control-label col-md-3">Productos</label>
+            <div class="col-md-9">
+                <select ng-model="New.ID_Producto" class="form-control" ng-change="PrecioU()"
+                        data-ng-options="a.ID_Producto as a.Descripcion_Producto for a in StockAdd"></select>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="col-md-3 control-label">Precio Unitario</label>
+
+            <div class="col-md-3">
+                <div class="input-icon right">
+
+                    <input type="text" class="form-control text-right" ng-model="New.PrecioUnitario" value="{{New.PrecioUnitario |number:6}}">
+
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-md-3 control-label">Cantidad</label>
+
+            <div class="col-md-3">
+                <div class="input-icon right">
+                    <input type="text" class="form-control text-right" ng-model="New.Cantidad" ng-change="Calcular2()">
+
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="col-md-3 control-label">Subtotal</label>
+
+            <div class="col-md-3">
+                <div class="input-icon right">
+                    <input type="text" class="form-control text-right" ng-model="New.Monto" value="{{New.Monto |number:6}}" disabled>
+
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-md-3 control-label">Descuento</label>
+
+            <div class="col-md-3">
+                <div class="input-icon right">
+                    <input type="text" class="form-control text-right" ng-model="New.Descuento" ng-change="Calcular2()">
+
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-md-3 control-label">Total</label>
+
+            <div class="col-md-3">
+                <div class="input-icon right">
+                    <input type="text" class="form-control text-right" ng-model="New.Total" ng-change="Calcular2()">
+
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+    </form>
+
+</div>
+<div class="modal-footer">
+    <button class="btn btn-primary" ng-click="ok()">Aceptar</button>
+    <button class="btn btn-warning" ng-click="cancel()">cancelar</button>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+

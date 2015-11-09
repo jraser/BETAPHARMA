@@ -1,0 +1,150 @@
+﻿
+
+
+
+<div>
+
+
+
+
+    <div class="portlet box blue-dark ">
+        <div class="portlet-title">
+            <div class="caption">
+                <i class="fa fa-gift"></i>
+
+                Grupo
+            </div>
+            <div class="tools">
+                <a href="" class="collapse">
+                </a>
+
+                <a href="" class="reload">
+                </a>
+
+            </div>
+
+        </div>
+        <div class="portlet-body form">
+            <form class="form-horizontal" role="form" id="FormMovbco" name="FormGrupo">
+                <div class="form-body">
+                    <div class="form-group" ng-show="true">
+                        <label class="col-md-3 control-label">Grupo Descuento</label>
+                        <div class="col-md-9">
+                            <input type="text" oninput="validacion('New.Nombre')" ng-required="true" id="New.Nombre" class="form-control input-inline input-medium"
+                                   ng-model="New.Nombre">
+
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+
+
+                <div class="form-actions">
+                    <div class="row">
+                        <div class="col-md-offset-3 col-md-9">
+                            <button type="submit" class="btn blue-dark" ng-click="SaveNew()">Grabar</button>
+                            <button type="button" class="btn default" ng-click="Cancel()">Cancelar</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="portlet box blue-dark">
+        <div class="portlet-title">
+            <div class="caption">
+                <i class="fa fa-gift"></i>Descuentos
+
+            </div>
+            <div class="tools">
+
+                <a href="" class="collapse">
+                </a>
+
+                <a href="" class="reload">
+                </a>
+
+            </div>
+           
+        </div>
+
+
+        <div class="portlet-body ">
+
+            <div class="portlet-body">
+                <div class="table-responsive">
+                    <table class="table table-striped table-bordered table-hover">
+                        <thead>
+                            <tr>
+                                <th>
+                                    Nombre
+                                </th>
+                                <th>
+                                    Descripcion
+                                </th>
+                                <th>Descuento %</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr ng-repeat="item in DescuentoList">
+                                <td>
+
+                                    {{item.Nombre}}
+                                </td>
+                                <td>
+                                    {{item.Descripcion}}
+                                </td>
+                                <td>{{item.PorcDscto}}</td>
+                                <td><input type="checkbox" ng-model="item.checked"></td>
+
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+
+        </div>
+
+
+
+    </div>
+
+
+</div>
+
+
+<script>
+    function validacion(id) {
+        var elem = document.getElementById(id);
+        if (elem.checkValidity(""))
+            elem.style.borderWidth = "2px",
+            elem.style.borderColor = "blue";
+
+        else
+            elem.style.borderColor = "Red";
+    }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

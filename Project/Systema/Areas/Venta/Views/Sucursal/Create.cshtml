@@ -1,0 +1,69 @@
+﻿
+<div>
+    <div class="portlet box blue-dark ">
+        <div class="portlet-title">
+            <div class="caption">
+                <i class="fa fa-gift"></i>
+
+                Sucursal
+            </div>
+            <div class="tools">
+                <a href="" class="collapse">
+                </a>
+
+                <a href="" class="reload">
+                </a>
+
+            </div>
+
+        </div>
+
+        
+        <div class="portlet-body form">
+                    <form class="form-horizontal" role="form">
+                        <div class="form-body">
+
+                       
+
+                            <div class="form-group" >
+                                <label class="col-md-3 control-label">Nombre </label>
+                                <div class="col-md-9">
+                                    <input type="text" class="form-control input-inline input-medium"
+                                           ng-model="New.Descripcion_Sucursal">
+
+                                </div>
+                            </div>
+
+
+                            <div class="form-group">
+                                <label class="col-md-3 control-label">Dirección </label>
+                                <div class="col-md-9">
+                                    <input type="text" class="form-control input-inline input-medium"
+                                           ng-model="New.Direccion">
+
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                        <div class="form-actions">
+                            <div class="row">
+                                <div class="col-md-offset-3 col-md-9">
+                                    <button type="submit" class="btn blue-dark" ng-click="SaveNew()" ng-disabled="!New.Descripcion_Sucursal || !New.Direccion">Grabar</button>
+                                    <button type="button" class="btn default" ng-click="Cancel()">Cancelar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+             
+            
+        </div>
+
+
+    </div>
+
+
+
+
+</div>

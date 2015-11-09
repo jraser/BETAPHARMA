@@ -1,0 +1,221 @@
+﻿
+<div>
+    <div class="portlet box blue-dark ">
+        <div class="portlet-title">
+            <div class="caption">
+                <i class="fa fa-gift"></i>
+                Producto
+            </div>
+            <div class="tools">
+                <a href="" class="collapse">
+                </a>
+                <a href="" class="reload">
+                </a>
+            </div>
+        </div>
+        <div class="portlet-body form">
+            <form class="form-horizontal" role="form" id="FormMovbco" name="FormGrupo">
+                <div class="form-body">
+                    <div class="form-group">
+                        <label class="col-md-3 control-label">Codigo </label>
+                        <div class="col-md-9">
+                            <input type="text" class="form-control input-inline input-medium"
+                                   ng-model="New.Codigo_Producto" id="Codigo_Producto" placeholder="Ingresar codigo" oninput="validacion('Codigo_Producto')">
+
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-md-3 control-label">Lote </label>
+                        <div class="col-md-9">
+                            <input type="text" ng-required="true" oninput="validacion('New.Cod_Lote')" placeholder="Ingresar Lote" id="New.Cod_Lote" class="form-control input-inline input-medium"
+                                   ng-model="New.Cod_Lote">
+
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-md-3 control-label">Descripción </label>
+                        <div class="col-md-9">
+                            <input type="text" ng-required="true" id="New.Descripcion_Producto" oninput="validacion('New.Descripcion_Producto')" placeholder="Ingresar Descripción"  class="form-control input-inline input-medium"
+                                   ng-model="New.Descripcion_Producto">
+
+                        </div>
+                    </div>
+
+
+                    <div class="form-group">
+                        <label class="col-md-3 control-label">Precio compra Base </label>
+                        <div class="col-md-9">
+                            <input type="text" ng-required="true" id="New.Precio_CompBase" oninput="validacion('New.Precio_CompBase')" placeholder="Ingresar precio compra base" class="form-control input-inline input-medium"
+                                   ng-model="New.Precio_CompBase">
+
+                        </div>
+                    </div>
+
+
+                    <div class="form-group">
+                        <label class="col-md-3 control-label">Precio venta Base </label>
+                        <div class="col-md-9">
+                            <input type="text" ng-required="true" id="New.Precio_VenBase" oninput="validacion('New.Precio_VenBase')" placeholder="Ingresar precio venta base" class="form-control input-inline input-medium"
+                                   ng-model="New.Precio_VenBase">
+
+                        </div>
+                    </div>
+                    
+
+                    <div class="form-group">
+                        <label class="col-md-3 control-label">Marca </label>
+                        <div class="col-md-3">
+                            <p class="input-group">
+                                <select ng-model="New.ID_Marca" class="form-control"
+                                        data-ng-options="a.ID_Marca as a.Descripcion for a in MarcaList" id="New.ID_Marca" oninput="validacion('New.ID_Marca')"></select>
+                                <span class="input-group-btn">
+                                    <a href="#" class="btn btn-default btn-sm" ng-click="addMarca()">
+                                        <i class="fa fa-plus"></i>
+                                    </a>
+                                </span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-md-3 control-label">Categoria </label>
+                        <div class="col-md-3">
+                            <p class="input-group">
+                                <select id="Categoria" ng-model="New.ID_Categoria" class="form-control" ng-change="SelectCategoria()"
+                                        data-ng-options="a.ID_Categoria as a.Nombre for a in CategoriaList"></select>
+                                <span class="input-group-btn">
+                                    <a href="#" class="btn btn-default btn-sm" ng-click="addCategoria()">
+                                        <i class="fa fa-plus"></i>
+                                    </a>
+                                </span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-md-3 control-label">Sub Categoria </label>
+                        <div class="col-md-3">
+
+                            <p class="input-group">
+                                <select ng-model="New.ID_SubCategoria" class="form-control"
+                                        data-ng-options="a.ID_SubCategoria as a.Nombre for a in SubCategoriaList"></select>
+                                <span class="input-group-btn">
+                                    <a href="#" class="btn btn-default btn-sm" ng-click="addSubCategoria()">
+                                        <i class="fa fa-plus"></i>
+                                    </a>
+                                </span>
+                            </p>
+
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-md-3 control-label">Unidad </label>
+                        <div class="col-md-3">
+                            <select ng-model="New.Codigo_UMedida" class="form-control"
+                                    data-ng-options="a.Codigo_UMedida as a.Nombre for a in UnidadList"></select>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="form-actions">
+                    <div class="row">
+                        <div class="col-md-offset-3 col-md-9">
+                            <button type="button" class="btn blue-dark" onclick="this.disabled=true" ng-click="SaveNew()" ng-disabled="!New.Codigo_Producto || !New.Cod_Lote || !New.ID_Marca || !New.ID_Categoria || !New.ID_SubCategoria || !New.Codigo_UMedida">Grabar</button>
+                            <button type="button" class="btn default" ng-click="Cancel()">Cancelar</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="portlet box blue-dark">
+        <div class="portlet-title">
+            <div class="caption">
+                <i class="fa fa-gift"></i>Precios
+
+            </div>
+            <div class="tools">
+
+                <a href="" class="collapse">
+                </a>
+
+                <a href="" class="reload">
+                </a>
+
+            </div>
+            <div class="actions">
+                <a href="#" class="btn btn-default btn-sm" ng-click="addPrecio()">
+                    <i class="fa fa-plus"></i> Agregar
+                </a>
+            </div>
+
+        </div>
+
+
+        <div class="portlet-body ">
+
+            <div class="portlet-body">
+                <div class="table-responsive">
+                    <table class="table table-striped table-bordered table-hover">
+                        <thead>
+                            <tr>
+                                <th>
+                                    Precio de Compra
+                                </th>
+                                <th>
+                                    Precio de Venta
+                                </th>
+                                <th>
+                                    Proveedor
+                                </th>
+                                <th></th>
+
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr ng-repeat="item in PrecioList">
+                                <td>
+
+                                    {{item.PC}}
+                                </td>
+                                <td>
+                                    {{item.PV}}
+                                </td>
+                                <td>
+                                    {{item.NombreSocio}}
+                                </td>
+
+                                <td>
+                                    <a href="#" class="btn btn-default btn-sm" ng-click="editPrecio(item.ID_Precio)">
+                                        <i class="fa fa-pencil"></i> Modificar
+                                    </a>
+
+                                </td>
+
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

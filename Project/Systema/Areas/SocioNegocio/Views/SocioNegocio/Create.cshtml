@@ -1,0 +1,329 @@
+﻿<div>
+    <div class="portlet box blue-dark ">
+        <div class="portlet-title">
+            <div class="caption">
+                <i class="fa fa-gift"></i>
+
+                Registro de Socio
+            </div>
+            <div class="tools">
+                <a href="" class="collapse">
+                </a>
+
+                <a href="" class="reload">
+                </a>
+
+            </div>
+
+        </div>
+
+        <div class="portlet-body form">
+            <tabset>
+                <tab heading="Socios">
+
+                    <form class="form-horizontal" role="form">
+                        <div class="form-body">
+                            <div class="form-group">
+                                <label class="col-md-3 control-label">Tipo de Socio </label>
+                                <div class="col-md-9">
+                                    <select ng-model="New.Tipo_Socio" id="tipo-socio"  class="form-control input-inline input-medium"  ng-required="true" oninput="validacion('tipo-socio')">
+                                        <option value='C'>Cliente</option>
+                                        <option value='P'>Proveedor</option>
+                                    </select>
+
+
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-md-3 control-label">Tipo de Persona </label>
+                                <div class="col-md-9">
+                                    <select ng-model="New.Regimen_Socio" name="Persona" id="Persona" onchange="ejemplo(this.value)" class="form-control input-inline input-medium" ng-required="true" oninput="validacion('Persona')">
+                                        <option value='1'>Natural</option>
+                                        <option value='2'>Juridica</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="col-md-3 control-label">Tipo de Documento </label>
+                                <div class="col-md-3">
+                                    <select ng-model="New.Tipo_Documento"  id="tipo_documento" class="form-control input-inline input-medium" ng-required="true" oninput="validacion('tipo_documento')">
+                                        <option value='1'>DNI</option>
+                                        <option value='3'>Carnet de Extranjeria</option>
+                                        <option value='2'>RUC</option>
+                                    </select>
+
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-md-3 control-label">RUC/DNI</label>
+                                <div class="col-md-9">
+                                    <input type="text"  placeholder="Introduce Ruc" id="Documento"  onkeypress="return soloNumeros(event)" size="1" maxlength="11" class="form-control input-inline input-medium"
+                                           ng-model="New.Num_Documento" ng-required="true" oninput="validacion('Documento')">
+                                </div>
+                            </div>
+                            <div id="Nombres" class="form-group">
+                                <label class="col-md-3 control-label">Razon Social</label>
+                                <div class="col-md-9">
+                                    <input type="text" onkeypress="soloLettra()" id="nombre_socio" size="3" maxlength="40" class="form-control input-inline input-medium"
+                                           ng-model="New.Nombres_Socio" ng-required="true" oninput="validacion('nombre_socio')">
+                                </div>
+                            </div>
+
+                            <div id="Paterno" class="form-group">
+                                <label class="col-md-3 control-label">Nombre Comercial</label>
+                                <div class="col-md-9">
+                                    <input type="text" id="nombre_comercial"  size="3" maxlength="40" class="form-control input-inline input-medium"
+                                           ng-model="New.NombreComercial_Socio" ng-required="true" oninput="validacion('nombre_comercial')">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-md-3 control-label">Nacionalidad</label>
+                                <div class="col-md-9">
+                                    <select name="ss" id="aa"  ng-model="New.Origen_Socio" class="form-control input-inline input-medium" ng-required="true" oninput="validacion('aa')">
+                                        <option value='N'>Nacional</option>
+                                        <option value='E'>Extranjero</option>
+                                    </select>
+
+                                </div>
+                            </div>
+                            <div id="RazonSocial" class="form-group">
+                                <label class="col-md-3 control-label">Dirección Fiscal</label>
+                                <div class="col-md-9">
+                                    <input type="text" id="direccion_fiscal" class="form-control input-inline input-medium"
+                                           ng-model="New.Direccion_Socio" ng-required="true" oninput="validacion('direccion_fiscal')" >
+                                </div>
+                            </div>
+
+
+                            <div class="form-group">
+                                <label class="col-md-3 control-label">Telefono   </label>
+                                <div class="col-md-9">
+                                    <input type="text" id="telefon"  onkeypress="return soloNumeros(event)" size="1" maxlength="9" class="form-control input-inline input-medium"
+                                           ng-model="New.Telefono" ng-required="true" oninput="validacion('telefon')">
+
+                                </div>
+                            </div>
+
+
+
+
+                            <div class="form-actions">
+                                <div class="row">
+                                    <div class="col-md-offset-3 col-md-9">
+                                        <button type="button" class="btn blue-dark" onclick="this.disabled=true" ng-click="SaveNew()" ng-disabled="!New.Num_Documento || !New.Nombres_Socio || !New.NombreComercial_Socio || !New.Direccion_Socio || !New.Telefono">Grabar</button>
+                                        <button type="button" class="btn default" ng-click="Cancel()">Cancelar</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </form>
+
+                </tab>
+
+
+                <tab heading="Direccion">
+
+                    <form class="form-horizontal">
+                        <div class="form-body">
+                            <div class="form-group">
+                                <label class="col-md-3 control-label">Direccion </label>
+                                <div class="col-md-9">
+                                    <input type="text" id="direc" class="form-control input-inline input-medium"
+                                           ng-model="New2.Direccion" ng-required="true" oninput="validacion('direc')">
+
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-md-3 control-label">Referencia de Domicilio </label>
+                                <div class="col-md-9">
+                                    <input type="text" id="referen" class="form-control input-inline input-medium"
+                                           ng-model="New2.Referencia_Domicilio" ng-required="true" oninput="validacion('referen')">
+
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="col-md-3 control-label">Tipo de Dirección</label>
+                                <div class="col-md-3">
+                                    <select ng-model="New2.Tipo" id="Tipo" class="form-control input-inline input-medium" ng-required="true" oninput="validacion('Tipo')">
+                                        <option value='Principal'> Principal</option>
+                                        <option value='Fiscal'> Fiscal</option>
+                                    </select>
+
+                                </div>
+                            </div>
+                        
+                        </div>
+
+                        <div class="form-actions">
+                            <div class="row">
+                                <div class="col-md-offset-3 col-md-9">
+                                    <button type="reset" class="btn blue-dark" ng-click="SaveDNew()" ng-disabled="!New2.Direccion || !New2.Referencia_Domicilio || !New2.Tipo">Grabar</button>
+                                    <button type="button" class="btn default" ng-click="Cancel()">Cancelar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+
+                    <div class="portlet box blue-dark">
+                        <div class="portlet-title">
+                            <div class="caption">
+                                Direciones
+                            </div>
+                            <div class="tools">
+
+                                <label class="btn btn-primary blue-madison"
+                                       ng-click="Delete()">Desactivar</label>
+
+                            </div>
+
+
+                        </div>
+
+                        <div class="portlet-body ">
+
+                            <div class="portlet-body">
+                                <div class="table-responsive">
+
+                                    <table class="table table-striped table-bordered table-hover">
+                                        <thead>
+                                            <tr>
+
+
+                                                <th>
+                                                    Direccion
+                                                </th>
+                                                <th>
+                                                    Referencia de Domicilio
+                                                </th>
+                                                <th>
+                                                    Tipo
+                                                </th>
+                                                <th>
+                                                    Estado
+                                                </th>
+                                                <th></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr ng-repeat="item in DireccionList">
+
+
+                                                <td>
+                                                    {{item.Direccion}}
+                                                </td>
+                                                <td>
+                                                    {{item.Referencia_Domicilio}}
+                                                </td>
+
+                                                <td>
+                                                    {{item.Tipo}}
+                                                </td>
+                                            
+                                                <td>
+                                                    {{item.Estado}}
+                                                </td>
+                                                <td align="center">
+
+                                                    <input type="checkbox"
+                                                           ng-click="select2(item.ID_Direccion)">
+
+
+                                                </td>
+                                            </tr>
+
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </tab>
+            </tabset>
+        </div>
+    </div>
+</div>
+<script>
+
+    function ejemplo(val) {
+        var opcion = val;
+        if (opcion == 1) {
+            document.getElementById('Nombres').style.visibility = 'visible';
+            document.getElementById('Nombres').style.display = 'block';
+            document.getElementById('Paterno').style.visibility = 'visible';
+            document.getElementById('Paterno').style.display = 'block';
+            document.getElementById('Materno').style.visibility = 'visible';
+            document.getElementById('Materno').style.display = 'block';
+            document.getElementById('NombreComercial').style.visibility = 'hidden';
+            document.getElementById('RazonSocial').style.visibility = 'hidden';
+            document.getElementById('RazonSocial').style.display = 'none';
+
+        } else if (opcion == 2) {
+            
+            document.getElementById('NombreComercial').style.visibility = 'visible';
+            document.getElementById('NombreComercial').style.display = 'block';
+            document.getElementById('Nombres').style.visibility = 'hidden';
+            document.getElementById('Nombres').style.display = 'none';
+            document.getElementById('Paterno').style.visibility = 'hidden';
+            document.getElementById('Paterno').style.display = 'none';
+            document.getElementById('Materno').style.visibility = 'hidden';
+            document.getElementById('Materno').style.display = 'none';
+            document.getElementById('RazonSocial').style.visibility = 'visible';
+            document.getElementById('RazonSocial').style.display = 'block';
+        }
+        else {
+            document.getElementById('Nombres').style.visibility = 'visible';
+            document.getElementById('Paterno').style.visibility = 'visible';
+            document.getElementById('Materno').style.visibility = 'visible';
+            document.getElementById('NombreComercial').style.visibility = 'visible';
+            document.getElementById('RazonSocial').style.visibility = 'visible';
+        }
+
+    }
+</script>
+
+<script type="text/javascript">
+    // Solo permite ingresar numeros.
+    function soloNumeros(e) {
+        var key = window.Event ? e.which : e.keyCode
+        return ((key >= 48 && key <= 57) || (key == 8))
+    }
+</script>
+
+
+<script type="text/javascript">
+    // Solo permite ingresar letra.
+    function soloLettra() {
+        if ((event.keyCode != 32) && (event.keyCode < 65) || (event.keyCode > 90) && (event.keyCode < 97) || (event.keyCode > 122))
+            event.returnValue = false;
+        $("#numero").keypress(function (event) {
+            if (event.keyCode < 48 || event.keyCode > 57) {
+                return false;
+            }
+        });
+
+
+    }
+</script>
+
+
+<script>
+    function validacion(id) {
+        var elem = document.getElementById(id);
+        if (elem.checkValidity(""))
+            elem.style.borderWidth = "2px",
+            elem.style.borderColor = "blue";
+
+        else
+            elem.style.borderColor = "Red";
+    }
+</script>
+
+
+
+

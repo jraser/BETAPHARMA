@@ -1,0 +1,292 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" class="no-js" data-ng-app="MetronicApp">
+
+<head>
+    <title data-ng-bind="'Sistema Web | ' + $state.current.data.pageTitle"></title>
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="Sistema " />
+    <meta name="author" content="c mendez" />
+    <meta name="keywords" content="Sistema,Ventas">
+
+    <base href="/">
+
+
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=all" rel="stylesheet" type="text/css" />
+    <link href="~/Content/assets/global/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/assets/global/plugins/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/assets/global/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/assets/global/plugins/uniform/css/uniform.default.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/assets/global/plugins/bootstrap-switch/css/bootstrap-switch.min.css" rel="stylesheet" type="text/css" />
+
+    <link rel="stylesheet" type="text/css" href="~/Content/assets/global/plugins/clockface/css/clockface.css" />
+    <link rel="stylesheet" type="text/css" href="~/Content/assets/global/plugins/bootstrap-datepicker/css/datepicker3.css" />
+    <link rel="stylesheet" type="text/css" href="~/Content/assets/global/plugins/bootstrap-timepicker/css/bootstrap-timepicker.min.css" />
+  
+   @*vvv*@
+    
+   
+    <link href="~/Content/assets/global/css/components.css" id="style_components" rel="stylesheet" type="text/css" />
+    <link href="~/Content/assets/global/css/plugins.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/assets/admin/layout/css/layout.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/assets/admin/layout/css/themes/darkblue.css" rel="stylesheet" type="text/css" id="style_color" />
+    <link href="~/Content/assets/admin/layout/css/custom.css" rel="stylesheet" type="text/css" />
+
+    <link href="~/Content/Site.css" rel="stylesheet" type="text/css" />
+
+
+    <link rel="shortcut icon" href="favicon.ico" />
+</head>
+
+<body class="page-header-fixed page-quick-sidebar-over-content page-style-square" >
+   
+    <div class="page-header navbar navbar-fixed-top">
+       
+        <div class="page-header-inner">
+         
+            <div class="page-logo">
+                <a href="/">
+                    
+                </a>
+                <div class="menu-toggler sidebar-toggler hide">
+                 
+                </div>
+            </div>
+          
+
+            <a href="javascript:;" class="menu-toggler responsive-toggler" data-toggle="collapse" data-target=".navbar-collapse">
+            </a>
+
+
+        </div>
+        
+    </div>
+   
+    <div class="clearfix">
+    </div>
+   
+    <div class="page-container">
+
+        <div class="page-sidebar-wrapper">
+            <div class="page-sidebar navbar-collapse collapse">
+
+                <ul class="page-sidebar-menu" data-keep-expanded="false" data-auto-scroll="true" data-slide-speed="200">
+
+                    <li class="sidebar-toggler-wrapper">
+
+                        <div class="sidebar-toggler">
+                        </div>
+
+                     </li>
+                   
+                    <li class="start active open">
+                        <a href="javascript:;">
+                            <i class="icon-home"></i>
+                            <span class="title">Socio de Negocio</span>
+                            <span class="selected"></span>
+                            <span class="arrow open"></span>
+                        </a>
+                        <ul class="sub-menu">
+                            <li class="active">
+                                <a ui-sref="GrupoList">
+                                    <i class="icon-bar-chart"></i>
+                                    Grupo
+                                </a>
+                                <a ui-sref="SocioNegocioList">
+                                    <i class="icon-bar-chart"></i>
+                                    Socio
+                                </a>
+
+                            </li>
+                        
+                        </ul>
+                    </li>
+                    
+                   @*<li class=" active ">
+                        <a href="javascript:;">
+                            <i class="icon-home"></i>
+                            <span class="title">Contabilidad</span>
+                            <span class="selected"></span>
+                            <span class="arrow open"></span>
+                        </a>
+                        <ul class="sub-menu">
+                            <li class="active">
+                                <a ui-sref="CuentaList">
+                                    <i class="icon-bar-chart"></i>
+                                    Cuenta
+                                </a>
+                            </li>
+
+
+                        </ul>
+                    </li>*@
+
+
+
+                    <li class="start active ">
+                        <a href="javascript:;">
+                            <i class="icon-home"></i>
+                            <span class="title">Venta</span>
+                            <span class="selected"></span>
+                            <span class="arrow open"></span>
+                        </a>
+                        <ul class="sub-menu">
+                            <li>
+                                <a ui-sref="ProductoList">
+                                    <i class="icon-bar-chart"></i>
+                                    Productos
+                                </a>
+                            </li>
+                           
+                            <li>
+                                <a ui-sref="DescuentoList">
+                                    <i class="icon-bar-chart"></i>
+                                    Descuentos
+                                </a>
+                            </li>
+
+                            <li>
+                                <a ui-sref="ALTProductoBySocioList">
+                                    <i class="icon-bar-chart"></i>
+                                    Lista de Precios
+                                </a>
+                            </li>
+
+                            <li>
+                                <a ui-sref="AlmacenList">
+                                    <i class="icon-bar-chart"></i>
+                                    Almacenes
+                                </a>
+                            </li>
+
+
+                            <li>
+                                <a ui-sref="CategoriaList">
+                                    <i class="icon-bar-chart"></i>
+                                    Categoria
+                                </a>
+                            </li>
+                            <li>
+                                <a ui-sref="SubCategoriaList">
+                                    <i class="icon-bar-chart"></i>
+                                    Sub Categoria
+                                </a>
+                            </li>
+                            <li>
+                                <a ui-sref="MarcaList">
+                                    <i class="icon-bar-chart"></i>
+                                    Marca
+                                </a>
+                            </li>
+                            <li>
+                                <a ui-sref="SucursalList">
+                                    <i class="icon-bar-chart"></i>
+                                    Sucursal
+                                </a>
+                            </li>
+                            <li>
+                                <a ui-sref="OCList">
+                                    <i class="icon-bar-chart"></i>
+                                    Orden de Compra
+                                </a>
+                            </li>
+                            <li>
+                                <a ui-sref="MovimientoList">
+                                    <i class="icon-bar-chart"></i>
+                                    Nota de Ingreso
+                                </a>
+                            </li>
+                            <li>
+                                <a ui-sref="OVList">
+                                    <i class="icon-bar-chart"></i>
+                                    Orden de Venta
+                                </a>
+                            </li>
+                            <li>
+                                <a ui-sref="RequerimientosList">
+                                    <i class="icon-bar-chart"></i>
+                                    Requerimientos
+                                </a>
+                            </li>
+                            <li>
+                                <a ui-sref="MovimientoList2">
+                                    <i class="icon-bar-chart"></i>
+                                    Nota de Salida
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+
+        <div class="page-content-wrapper">
+            <div class="page-content">
+
+                <div class="row">
+                    <div>
+
+                        <div class="col-md-12">
+                            <div ui-view="containerOne"></div>
+                        </div>
+
+                    </div>
+                    <input id="Id" type="hidden" value="0" />
+                    <input id="Action" type="hidden" value="List" />
+                </div>
+
+
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="page-footer">
+        <div class="page-footer-inner">
+            2015 by cm.
+        </div>
+
+    </div>
+
+    <script src="~/Content/assets/global/plugins/jquery.min.js" type="text/javascript"></script>
+    <script src="~/Content/assets/global/plugins/jquery-migrate.min.js" type="text/javascript"></script>
+    <script src="~/Content/assets/global/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="~/Content/assets/global/plugins/bootstrap-hover-dropdown/bootstrap-hover-dropdown.min.js" type="text/javascript"></script>
+    <script src="~/Content/assets/global/plugins/jquery-slimscroll/jquery.slimscroll.min.js" type="text/javascript"></script>
+    <script src="~/Content/assets/global/plugins/jquery.blockui.min.js" type="text/javascript"></script>
+    <script src="~/Content/assets/global/plugins/jquery.cokie.min.js" type="text/javascript"></script>
+    <script src="~/Content/assets/global/plugins/uniform/jquery.uniform.min.js" type="text/javascript"></script>
+    <script src="~/Content/assets/global/plugins/bootstrap-switch/js/bootstrap-switch.min.js" type="text/javascript"></script>
+   @*dd*@
+   
+
+    <script src="~/Content/assets/global/scripts/metronic.js" type="text/javascript"></script>
+    <script src="~/Content/assets/admin/layout/scripts/layout.js" type="text/javascript"></script>
+    <script src="~/Content/assets/admin/layout/scripts/quick-sidebar.js" type="text/javascript"></script>
+    <script src="~/Content/assets/admin/layout/scripts/demo.js" type="text/javascript"></script>
+    <script src="~/Content/assets/admin/pages/scripts/index.js" type="text/javascript"></script>
+    <script src="~/Content/assets/admin/pages/scripts/tasks.js" type="text/javascript"></script>
+
+
+
+    <script>
+        jQuery(document).ready(function () {
+            Metronic.init();
+            Metronic.setAssetsPath('/Content/assets/');
+
+        });
+    </script>
+
+    @Scripts.Render("~/Content/assets/jsangular")
+    @Scripts.Render("~/bundles/Systema")
+ 
+</body>
+
+</html>
+

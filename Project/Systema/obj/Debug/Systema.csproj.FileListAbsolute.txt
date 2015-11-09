@@ -1,0 +1,408 @@
+D:\proyect\Project\Systema\bin\Systema.dll.config
+D:\proyect\Project\Systema\bin\Systema.dll
+D:\proyect\Project\Systema\bin\Systema.pdb
+D:\proyect\Project\Systema\bin\Antlr3.Runtime.dll
+D:\proyect\Project\Systema\bin\BL.dll
+D:\proyect\Project\Systema\bin\Entity.dll
+D:\proyect\Project\Systema\bin\EntityFramework.dll
+D:\proyect\Project\Systema\bin\EntityFramework.SqlServer.dll
+D:\proyect\Project\Systema\bin\Microsoft.AspNet.Identity.Core.dll
+D:\proyect\Project\Systema\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\proyect\Project\Systema\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\proyect\Project\Systema\bin\Microsoft.Owin.dll
+D:\proyect\Project\Systema\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\proyect\Project\Systema\bin\Microsoft.Owin.Security.Cookies.dll
+D:\proyect\Project\Systema\bin\Microsoft.Owin.Security.dll
+D:\proyect\Project\Systema\bin\Microsoft.Owin.Security.Facebook.dll
+D:\proyect\Project\Systema\bin\Microsoft.Owin.Security.Google.dll
+D:\proyect\Project\Systema\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\proyect\Project\Systema\bin\Microsoft.Owin.Security.OAuth.dll
+D:\proyect\Project\Systema\bin\Microsoft.Owin.Security.Twitter.dll
+D:\proyect\Project\Systema\bin\Microsoft.Web.Infrastructure.dll
+D:\proyect\Project\Systema\bin\Newtonsoft.Json.dll
+D:\proyect\Project\Systema\bin\Owin.dll
+D:\proyect\Project\Systema\bin\System.Net.Http.Formatting.dll
+D:\proyect\Project\Systema\bin\System.Web.Helpers.dll
+D:\proyect\Project\Systema\bin\System.Web.Http.dll
+D:\proyect\Project\Systema\bin\System.Web.Http.WebHost.dll
+D:\proyect\Project\Systema\bin\System.Web.Mvc.dll
+D:\proyect\Project\Systema\bin\System.Web.Optimization.dll
+D:\proyect\Project\Systema\bin\System.Web.Razor.dll
+D:\proyect\Project\Systema\bin\System.Web.WebPages.Deployment.dll
+D:\proyect\Project\Systema\bin\System.Web.WebPages.dll
+D:\proyect\Project\Systema\bin\System.Web.WebPages.Razor.dll
+D:\proyect\Project\Systema\bin\WebGrease.dll
+D:\proyect\Project\Systema\bin\Datos.dll
+D:\proyect\Project\Systema\bin\BL.pdb
+D:\proyect\Project\Systema\bin\Entity.pdb
+D:\proyect\Project\Systema\bin\System.Web.Helpers.xml
+D:\proyect\Project\Systema\bin\System.Web.Mvc.xml
+D:\proyect\Project\Systema\bin\System.Web.Optimization.xml
+D:\proyect\Project\Systema\bin\System.Web.Razor.xml
+D:\proyect\Project\Systema\bin\System.Web.WebPages.xml
+D:\proyect\Project\Systema\bin\System.Web.WebPages.Deployment.xml
+D:\proyect\Project\Systema\bin\System.Web.WebPages.Razor.xml
+D:\proyect\Project\Systema\bin\Newtonsoft.Json.xml
+D:\proyect\Project\Systema\bin\Antlr3.Runtime.pdb
+D:\proyect\Project\Systema\bin\System.Net.Http.Formatting.xml
+D:\proyect\Project\Systema\bin\System.Web.Http.xml
+D:\proyect\Project\Systema\bin\System.Web.Http.WebHost.xml
+D:\proyect\Project\Systema\bin\EntityFramework.xml
+D:\proyect\Project\Systema\bin\EntityFramework.SqlServer.xml
+D:\proyect\Project\Systema\bin\Microsoft.AspNet.Identity.Core.xml
+D:\proyect\Project\Systema\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\proyect\Project\Systema\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\proyect\Project\Systema\bin\Microsoft.Owin.xml
+D:\proyect\Project\Systema\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\proyect\Project\Systema\bin\Microsoft.Owin.Security.xml
+D:\proyect\Project\Systema\bin\Microsoft.Owin.Security.Facebook.xml
+D:\proyect\Project\Systema\bin\Microsoft.Owin.Security.Cookies.xml
+D:\proyect\Project\Systema\bin\Microsoft.Owin.Security.OAuth.xml
+D:\proyect\Project\Systema\bin\Microsoft.Owin.Security.Google.xml
+D:\proyect\Project\Systema\bin\Microsoft.Owin.Security.Twitter.xml
+D:\proyect\Project\Systema\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\proyect\Project\Systema\bin\Datos.pdb
+D:\proyect\Project\Systema\obj\Debug\Systema.csprojResolveAssemblyReference.cache
+D:\proyect\Project\Systema\obj\Debug\Systema.dll
+D:\proyect\Project\Systema\obj\Debug\Systema.pdb
+C:\Users\Méndez\Desktop\vially\VisionesWeb\Project\Project\Systema\obj\Debug\Systema.csprojResolveAssemblyReference.cache
+D:\proyecto\Project\Project\Project\Systema\bin\Systema.dll.config
+D:\proyecto\Project\Project\Project\Systema\bin\Systema.dll
+D:\proyecto\Project\Project\Project\Systema\bin\Systema.pdb
+D:\proyecto\Project\Project\Project\Systema\bin\Antlr3.Runtime.dll
+D:\proyecto\Project\Project\Project\Systema\bin\BL.dll
+D:\proyecto\Project\Project\Project\Systema\bin\Entity.dll
+D:\proyecto\Project\Project\Project\Systema\bin\EntityFramework.dll
+D:\proyecto\Project\Project\Project\Systema\bin\EntityFramework.SqlServer.dll
+D:\proyecto\Project\Project\Project\Systema\bin\Microsoft.AspNet.Identity.Core.dll
+D:\proyecto\Project\Project\Project\Systema\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\proyecto\Project\Project\Project\Systema\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\proyecto\Project\Project\Project\Systema\bin\Microsoft.Owin.dll
+D:\proyecto\Project\Project\Project\Systema\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\proyecto\Project\Project\Project\Systema\bin\Microsoft.Owin.Security.Cookies.dll
+D:\proyecto\Project\Project\Project\Systema\bin\Microsoft.Owin.Security.dll
+D:\proyecto\Project\Project\Project\Systema\bin\Microsoft.Owin.Security.Facebook.dll
+D:\proyecto\Project\Project\Project\Systema\bin\Microsoft.Owin.Security.Google.dll
+D:\proyecto\Project\Project\Project\Systema\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\proyecto\Project\Project\Project\Systema\bin\Microsoft.Owin.Security.OAuth.dll
+D:\proyecto\Project\Project\Project\Systema\bin\Microsoft.Owin.Security.Twitter.dll
+D:\proyecto\Project\Project\Project\Systema\bin\Microsoft.Web.Infrastructure.dll
+D:\proyecto\Project\Project\Project\Systema\bin\Newtonsoft.Json.dll
+D:\proyecto\Project\Project\Project\Systema\bin\Owin.dll
+D:\proyecto\Project\Project\Project\Systema\bin\System.Net.Http.Formatting.dll
+D:\proyecto\Project\Project\Project\Systema\bin\System.Web.Helpers.dll
+D:\proyecto\Project\Project\Project\Systema\bin\System.Web.Http.dll
+D:\proyecto\Project\Project\Project\Systema\bin\System.Web.Http.WebHost.dll
+D:\proyecto\Project\Project\Project\Systema\bin\System.Web.Mvc.dll
+D:\proyecto\Project\Project\Project\Systema\bin\System.Web.Optimization.dll
+D:\proyecto\Project\Project\Project\Systema\bin\System.Web.Razor.dll
+D:\proyecto\Project\Project\Project\Systema\bin\System.Web.WebPages.Deployment.dll
+D:\proyecto\Project\Project\Project\Systema\bin\System.Web.WebPages.dll
+D:\proyecto\Project\Project\Project\Systema\bin\System.Web.WebPages.Razor.dll
+D:\proyecto\Project\Project\Project\Systema\bin\WebGrease.dll
+D:\proyecto\Project\Project\Project\Systema\bin\Datos.dll
+D:\proyecto\Project\Project\Project\Systema\bin\BL.pdb
+D:\proyecto\Project\Project\Project\Systema\bin\Entity.pdb
+D:\proyecto\Project\Project\Project\Systema\bin\System.Web.Helpers.xml
+D:\proyecto\Project\Project\Project\Systema\bin\System.Web.Mvc.xml
+D:\proyecto\Project\Project\Project\Systema\bin\System.Web.Optimization.xml
+D:\proyecto\Project\Project\Project\Systema\bin\System.Web.Razor.xml
+D:\proyecto\Project\Project\Project\Systema\bin\System.Web.WebPages.xml
+D:\proyecto\Project\Project\Project\Systema\bin\System.Web.WebPages.Deployment.xml
+D:\proyecto\Project\Project\Project\Systema\bin\System.Web.WebPages.Razor.xml
+D:\proyecto\Project\Project\Project\Systema\bin\Newtonsoft.Json.xml
+D:\proyecto\Project\Project\Project\Systema\bin\Antlr3.Runtime.pdb
+D:\proyecto\Project\Project\Project\Systema\bin\System.Net.Http.Formatting.xml
+D:\proyecto\Project\Project\Project\Systema\bin\System.Web.Http.xml
+D:\proyecto\Project\Project\Project\Systema\bin\System.Web.Http.WebHost.xml
+D:\proyecto\Project\Project\Project\Systema\bin\EntityFramework.xml
+D:\proyecto\Project\Project\Project\Systema\bin\EntityFramework.SqlServer.xml
+D:\proyecto\Project\Project\Project\Systema\bin\Microsoft.AspNet.Identity.Core.xml
+D:\proyecto\Project\Project\Project\Systema\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\proyecto\Project\Project\Project\Systema\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\proyecto\Project\Project\Project\Systema\bin\Microsoft.Owin.xml
+D:\proyecto\Project\Project\Project\Systema\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\proyecto\Project\Project\Project\Systema\bin\Microsoft.Owin.Security.xml
+D:\proyecto\Project\Project\Project\Systema\bin\Microsoft.Owin.Security.Facebook.xml
+D:\proyecto\Project\Project\Project\Systema\bin\Microsoft.Owin.Security.Cookies.xml
+D:\proyecto\Project\Project\Project\Systema\bin\Microsoft.Owin.Security.OAuth.xml
+D:\proyecto\Project\Project\Project\Systema\bin\Microsoft.Owin.Security.Google.xml
+D:\proyecto\Project\Project\Project\Systema\bin\Microsoft.Owin.Security.Twitter.xml
+D:\proyecto\Project\Project\Project\Systema\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\proyecto\Project\Project\Project\Systema\bin\Datos.pdb
+D:\proyecto\Project\Project\Project\Systema\obj\Debug\Systema.csprojResolveAssemblyReference.cache
+D:\proyecto\Project\Project\Project\Systema\obj\Debug\Systema.dll
+D:\proyecto\Project\Project\Project\Systema\obj\Debug\Systema.pdb
+D:\vc_n\Project\31072015\Project\Systema\obj\Debug\Systema.csprojResolveAssemblyReference.cache
+D:\vc_n\Project\31072015\Project\Systema\bin\Systema.dll.config
+D:\vc_n\Project\31072015\Project\Systema\bin\Systema.dll
+D:\vc_n\Project\31072015\Project\Systema\bin\Systema.pdb
+D:\vc_n\Project\31072015\Project\Systema\bin\Antlr3.Runtime.dll
+D:\vc_n\Project\31072015\Project\Systema\bin\BL.dll
+D:\vc_n\Project\31072015\Project\Systema\bin\Entity.dll
+D:\vc_n\Project\31072015\Project\Systema\bin\EntityFramework.dll
+D:\vc_n\Project\31072015\Project\Systema\bin\EntityFramework.SqlServer.dll
+D:\vc_n\Project\31072015\Project\Systema\bin\Microsoft.AspNet.Identity.Core.dll
+D:\vc_n\Project\31072015\Project\Systema\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\vc_n\Project\31072015\Project\Systema\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\vc_n\Project\31072015\Project\Systema\bin\Microsoft.Owin.dll
+D:\vc_n\Project\31072015\Project\Systema\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\vc_n\Project\31072015\Project\Systema\bin\Microsoft.Owin.Security.Cookies.dll
+D:\vc_n\Project\31072015\Project\Systema\bin\Microsoft.Owin.Security.dll
+D:\vc_n\Project\31072015\Project\Systema\bin\Microsoft.Owin.Security.Facebook.dll
+D:\vc_n\Project\31072015\Project\Systema\bin\Microsoft.Owin.Security.Google.dll
+D:\vc_n\Project\31072015\Project\Systema\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\vc_n\Project\31072015\Project\Systema\bin\Microsoft.Owin.Security.OAuth.dll
+D:\vc_n\Project\31072015\Project\Systema\bin\Microsoft.Owin.Security.Twitter.dll
+D:\vc_n\Project\31072015\Project\Systema\bin\Microsoft.Web.Infrastructure.dll
+D:\vc_n\Project\31072015\Project\Systema\bin\Newtonsoft.Json.dll
+D:\vc_n\Project\31072015\Project\Systema\bin\Owin.dll
+D:\vc_n\Project\31072015\Project\Systema\bin\System.Net.Http.Formatting.dll
+D:\vc_n\Project\31072015\Project\Systema\bin\System.Web.Helpers.dll
+D:\vc_n\Project\31072015\Project\Systema\bin\System.Web.Http.dll
+D:\vc_n\Project\31072015\Project\Systema\bin\System.Web.Http.WebHost.dll
+D:\vc_n\Project\31072015\Project\Systema\bin\System.Web.Mvc.dll
+D:\vc_n\Project\31072015\Project\Systema\bin\System.Web.Optimization.dll
+D:\vc_n\Project\31072015\Project\Systema\bin\System.Web.Razor.dll
+D:\vc_n\Project\31072015\Project\Systema\bin\System.Web.WebPages.Deployment.dll
+D:\vc_n\Project\31072015\Project\Systema\bin\System.Web.WebPages.dll
+D:\vc_n\Project\31072015\Project\Systema\bin\System.Web.WebPages.Razor.dll
+D:\vc_n\Project\31072015\Project\Systema\bin\WebGrease.dll
+D:\vc_n\Project\31072015\Project\Systema\bin\Datos.dll
+D:\vc_n\Project\31072015\Project\Systema\bin\BL.pdb
+D:\vc_n\Project\31072015\Project\Systema\bin\Entity.pdb
+D:\vc_n\Project\31072015\Project\Systema\bin\System.Web.Helpers.xml
+D:\vc_n\Project\31072015\Project\Systema\bin\System.Web.Mvc.xml
+D:\vc_n\Project\31072015\Project\Systema\bin\System.Web.Optimization.xml
+D:\vc_n\Project\31072015\Project\Systema\bin\System.Web.Razor.xml
+D:\vc_n\Project\31072015\Project\Systema\bin\System.Web.WebPages.xml
+D:\vc_n\Project\31072015\Project\Systema\bin\System.Web.WebPages.Deployment.xml
+D:\vc_n\Project\31072015\Project\Systema\bin\System.Web.WebPages.Razor.xml
+D:\vc_n\Project\31072015\Project\Systema\bin\Newtonsoft.Json.xml
+D:\vc_n\Project\31072015\Project\Systema\bin\Antlr3.Runtime.pdb
+D:\vc_n\Project\31072015\Project\Systema\bin\System.Net.Http.Formatting.xml
+D:\vc_n\Project\31072015\Project\Systema\bin\System.Web.Http.xml
+D:\vc_n\Project\31072015\Project\Systema\bin\System.Web.Http.WebHost.xml
+D:\vc_n\Project\31072015\Project\Systema\bin\EntityFramework.xml
+D:\vc_n\Project\31072015\Project\Systema\bin\EntityFramework.SqlServer.xml
+D:\vc_n\Project\31072015\Project\Systema\bin\Microsoft.AspNet.Identity.Core.xml
+D:\vc_n\Project\31072015\Project\Systema\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\vc_n\Project\31072015\Project\Systema\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\vc_n\Project\31072015\Project\Systema\bin\Microsoft.Owin.xml
+D:\vc_n\Project\31072015\Project\Systema\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\vc_n\Project\31072015\Project\Systema\bin\Microsoft.Owin.Security.xml
+D:\vc_n\Project\31072015\Project\Systema\bin\Microsoft.Owin.Security.Facebook.xml
+D:\vc_n\Project\31072015\Project\Systema\bin\Microsoft.Owin.Security.Cookies.xml
+D:\vc_n\Project\31072015\Project\Systema\bin\Microsoft.Owin.Security.OAuth.xml
+D:\vc_n\Project\31072015\Project\Systema\bin\Microsoft.Owin.Security.Google.xml
+D:\vc_n\Project\31072015\Project\Systema\bin\Microsoft.Owin.Security.Twitter.xml
+D:\vc_n\Project\31072015\Project\Systema\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\vc_n\Project\31072015\Project\Systema\bin\Datos.pdb
+D:\vc_n\Project\31072015\Project\Systema\obj\Debug\Systema.dll
+D:\vc_n\Project\31072015\Project\Systema\obj\Debug\Systema.pdb
+C:\Users\usuario\Desktop\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\Systema.dll.config
+C:\Users\usuario\Desktop\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\Systema.dll
+C:\Users\usuario\Desktop\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\Systema.pdb
+C:\Users\usuario\Desktop\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\Antlr3.Runtime.dll
+C:\Users\usuario\Desktop\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\BL.dll
+C:\Users\usuario\Desktop\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\Entity.dll
+C:\Users\usuario\Desktop\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\EntityFramework.dll
+C:\Users\usuario\Desktop\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\EntityFramework.SqlServer.dll
+C:\Users\usuario\Desktop\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\usuario\Desktop\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\usuario\Desktop\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\usuario\Desktop\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\Microsoft.Owin.dll
+C:\Users\usuario\Desktop\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\usuario\Desktop\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\usuario\Desktop\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\Microsoft.Owin.Security.dll
+C:\Users\usuario\Desktop\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\usuario\Desktop\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\usuario\Desktop\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\usuario\Desktop\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\usuario\Desktop\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\usuario\Desktop\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\usuario\Desktop\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\Newtonsoft.Json.dll
+C:\Users\usuario\Desktop\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\Owin.dll
+C:\Users\usuario\Desktop\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\System.Net.Http.Formatting.dll
+C:\Users\usuario\Desktop\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\System.Web.Helpers.dll
+C:\Users\usuario\Desktop\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\System.Web.Http.dll
+C:\Users\usuario\Desktop\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\System.Web.Http.WebHost.dll
+C:\Users\usuario\Desktop\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\System.Web.Mvc.dll
+C:\Users\usuario\Desktop\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\System.Web.Optimization.dll
+C:\Users\usuario\Desktop\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\System.Web.Razor.dll
+C:\Users\usuario\Desktop\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\System.Web.WebPages.Deployment.dll
+C:\Users\usuario\Desktop\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\System.Web.WebPages.dll
+C:\Users\usuario\Desktop\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\System.Web.WebPages.Razor.dll
+C:\Users\usuario\Desktop\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\WebGrease.dll
+C:\Users\usuario\Desktop\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\Datos.dll
+C:\Users\usuario\Desktop\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\BL.pdb
+C:\Users\usuario\Desktop\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\Entity.pdb
+C:\Users\usuario\Desktop\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\System.Web.Helpers.xml
+C:\Users\usuario\Desktop\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\System.Web.Mvc.xml
+C:\Users\usuario\Desktop\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\System.Web.Optimization.xml
+C:\Users\usuario\Desktop\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\System.Web.Razor.xml
+C:\Users\usuario\Desktop\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\System.Web.WebPages.xml
+C:\Users\usuario\Desktop\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\System.Web.WebPages.Deployment.xml
+C:\Users\usuario\Desktop\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\System.Web.WebPages.Razor.xml
+C:\Users\usuario\Desktop\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\Newtonsoft.Json.xml
+C:\Users\usuario\Desktop\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\Antlr3.Runtime.pdb
+C:\Users\usuario\Desktop\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\System.Net.Http.Formatting.xml
+C:\Users\usuario\Desktop\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\System.Web.Http.xml
+C:\Users\usuario\Desktop\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\System.Web.Http.WebHost.xml
+C:\Users\usuario\Desktop\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\EntityFramework.xml
+C:\Users\usuario\Desktop\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\EntityFramework.SqlServer.xml
+C:\Users\usuario\Desktop\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\usuario\Desktop\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\usuario\Desktop\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\usuario\Desktop\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\Microsoft.Owin.xml
+C:\Users\usuario\Desktop\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\usuario\Desktop\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\Microsoft.Owin.Security.xml
+C:\Users\usuario\Desktop\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\usuario\Desktop\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\usuario\Desktop\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\usuario\Desktop\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\usuario\Desktop\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\usuario\Desktop\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\usuario\Desktop\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\Datos.pdb
+C:\Users\usuario\Desktop\VISIONESWEB\vc_n\Project\31072015\Project\Systema\obj\Debug\Systema.csprojResolveAssemblyReference.cache
+C:\Users\usuario\Desktop\VISIONESWEB\vc_n\Project\31072015\Project\Systema\obj\Debug\Systema.dll
+C:\Users\usuario\Desktop\VISIONESWEB\vc_n\Project\31072015\Project\Systema\obj\Debug\Systema.pdb
+C:\archivo escritorio 10-08-2015\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\Systema.dll.config
+C:\archivo escritorio 10-08-2015\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\Systema.dll
+C:\archivo escritorio 10-08-2015\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\Systema.pdb
+C:\archivo escritorio 10-08-2015\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\Antlr3.Runtime.dll
+C:\archivo escritorio 10-08-2015\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\BL.dll
+C:\archivo escritorio 10-08-2015\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\Entity.dll
+C:\archivo escritorio 10-08-2015\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\EntityFramework.dll
+C:\archivo escritorio 10-08-2015\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\EntityFramework.SqlServer.dll
+C:\archivo escritorio 10-08-2015\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\Microsoft.AspNet.Identity.Core.dll
+C:\archivo escritorio 10-08-2015\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\archivo escritorio 10-08-2015\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\archivo escritorio 10-08-2015\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\Microsoft.Owin.dll
+C:\archivo escritorio 10-08-2015\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\archivo escritorio 10-08-2015\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\Microsoft.Owin.Security.Cookies.dll
+C:\archivo escritorio 10-08-2015\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\Microsoft.Owin.Security.dll
+C:\archivo escritorio 10-08-2015\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\Microsoft.Owin.Security.Facebook.dll
+C:\archivo escritorio 10-08-2015\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\Microsoft.Owin.Security.Google.dll
+C:\archivo escritorio 10-08-2015\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\archivo escritorio 10-08-2015\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\Microsoft.Owin.Security.OAuth.dll
+C:\archivo escritorio 10-08-2015\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\Microsoft.Owin.Security.Twitter.dll
+C:\archivo escritorio 10-08-2015\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\Microsoft.Web.Infrastructure.dll
+C:\archivo escritorio 10-08-2015\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\Newtonsoft.Json.dll
+C:\archivo escritorio 10-08-2015\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\Owin.dll
+C:\archivo escritorio 10-08-2015\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\System.Net.Http.Formatting.dll
+C:\archivo escritorio 10-08-2015\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\System.Web.Helpers.dll
+C:\archivo escritorio 10-08-2015\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\System.Web.Http.dll
+C:\archivo escritorio 10-08-2015\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\System.Web.Http.WebHost.dll
+C:\archivo escritorio 10-08-2015\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\System.Web.Mvc.dll
+C:\archivo escritorio 10-08-2015\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\System.Web.Optimization.dll
+C:\archivo escritorio 10-08-2015\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\System.Web.Razor.dll
+C:\archivo escritorio 10-08-2015\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\System.Web.WebPages.Deployment.dll
+C:\archivo escritorio 10-08-2015\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\System.Web.WebPages.dll
+C:\archivo escritorio 10-08-2015\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\System.Web.WebPages.Razor.dll
+C:\archivo escritorio 10-08-2015\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\WebGrease.dll
+C:\archivo escritorio 10-08-2015\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\Datos.dll
+C:\archivo escritorio 10-08-2015\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\BL.pdb
+C:\archivo escritorio 10-08-2015\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\Entity.pdb
+C:\archivo escritorio 10-08-2015\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\System.Web.Helpers.xml
+C:\archivo escritorio 10-08-2015\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\System.Web.Mvc.xml
+C:\archivo escritorio 10-08-2015\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\System.Web.Optimization.xml
+C:\archivo escritorio 10-08-2015\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\System.Web.Razor.xml
+C:\archivo escritorio 10-08-2015\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\System.Web.WebPages.xml
+C:\archivo escritorio 10-08-2015\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\System.Web.WebPages.Deployment.xml
+C:\archivo escritorio 10-08-2015\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\System.Web.WebPages.Razor.xml
+C:\archivo escritorio 10-08-2015\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\Newtonsoft.Json.xml
+C:\archivo escritorio 10-08-2015\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\Antlr3.Runtime.pdb
+C:\archivo escritorio 10-08-2015\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\System.Net.Http.Formatting.xml
+C:\archivo escritorio 10-08-2015\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\System.Web.Http.xml
+C:\archivo escritorio 10-08-2015\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\System.Web.Http.WebHost.xml
+C:\archivo escritorio 10-08-2015\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\EntityFramework.xml
+C:\archivo escritorio 10-08-2015\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\EntityFramework.SqlServer.xml
+C:\archivo escritorio 10-08-2015\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\Microsoft.AspNet.Identity.Core.xml
+C:\archivo escritorio 10-08-2015\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\archivo escritorio 10-08-2015\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\archivo escritorio 10-08-2015\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\Microsoft.Owin.xml
+C:\archivo escritorio 10-08-2015\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\archivo escritorio 10-08-2015\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\Microsoft.Owin.Security.xml
+C:\archivo escritorio 10-08-2015\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\Microsoft.Owin.Security.Facebook.xml
+C:\archivo escritorio 10-08-2015\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\Microsoft.Owin.Security.Cookies.xml
+C:\archivo escritorio 10-08-2015\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\Microsoft.Owin.Security.OAuth.xml
+C:\archivo escritorio 10-08-2015\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\Microsoft.Owin.Security.Google.xml
+C:\archivo escritorio 10-08-2015\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\Microsoft.Owin.Security.Twitter.xml
+C:\archivo escritorio 10-08-2015\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\archivo escritorio 10-08-2015\VISIONESWEB\vc_n\Project\31072015\Project\Systema\bin\Datos.pdb
+C:\archivo escritorio 10-08-2015\VISIONESWEB\vc_n\Project\31072015\Project\Systema\obj\Debug\Systema.csprojResolveAssemblyReference.cache
+C:\archivo escritorio 10-08-2015\VISIONESWEB\vc_n\Project\31072015\Project\Systema\obj\Debug\Systema.dll
+C:\archivo escritorio 10-08-2015\VISIONESWEB\vc_n\Project\31072015\Project\Systema\obj\Debug\Systema.pdb
+C:\Users\Administrador.VIWEB03\Desktop\SISTEMA_BETA-PHARMA\Project\Systema\obj\Debug\Systema.csprojResolveAssemblyReference.cache
+C:\Users\Administrador.VIWEB03\Desktop\SISTEMA_BETA-PHARMA\Project\Systema\bin\Systema.dll.config
+C:\Users\Administrador.VIWEB03\Desktop\SISTEMA_BETA-PHARMA\Project\Systema\bin\Systema.dll
+C:\Users\Administrador.VIWEB03\Desktop\SISTEMA_BETA-PHARMA\Project\Systema\bin\Systema.pdb
+C:\Users\Administrador.VIWEB03\Desktop\SISTEMA_BETA-PHARMA\Project\Systema\bin\BL.dll
+C:\Users\Administrador.VIWEB03\Desktop\SISTEMA_BETA-PHARMA\Project\Systema\bin\Entity.dll
+C:\Users\Administrador.VIWEB03\Desktop\SISTEMA_BETA-PHARMA\Project\Systema\bin\Datos.dll
+C:\Users\Administrador.VIWEB03\Desktop\SISTEMA_BETA-PHARMA\Project\Systema\bin\BL.pdb
+C:\Users\Administrador.VIWEB03\Desktop\SISTEMA_BETA-PHARMA\Project\Systema\bin\Entity.pdb
+C:\Users\Administrador.VIWEB03\Desktop\SISTEMA_BETA-PHARMA\Project\Systema\bin\Datos.pdb
+C:\Users\Administrador.VIWEB03\Desktop\SISTEMA_BETA-PHARMA\Project\Systema\obj\Debug\Systema.dll
+C:\Users\Administrador.VIWEB03\Desktop\SISTEMA_BETA-PHARMA\Project\Systema\obj\Debug\Systema.pdb
+D:\Proyecto\Net\Project\Systema\obj\Debug\Systema.csprojResolveAssemblyReference.cache
+D:\Proyecto\Net\Project\Systema\bin\Systema.dll.config
+D:\Proyecto\Net\Project\Systema\bin\Systema.dll
+D:\Proyecto\Net\Project\Systema\bin\Systema.pdb
+D:\Proyecto\Net\Project\Systema\bin\BL.dll
+D:\Proyecto\Net\Project\Systema\bin\Entity.dll
+D:\Proyecto\Net\Project\Systema\bin\Datos.dll
+D:\Proyecto\Net\Project\Systema\bin\BL.pdb
+D:\Proyecto\Net\Project\Systema\bin\Entity.pdb
+D:\Proyecto\Net\Project\Systema\bin\Datos.pdb
+D:\Proyecto\Net\Project\Systema\obj\Debug\Systema.dll
+D:\Proyecto\Net\Project\Systema\obj\Debug\Systema.pdb
+C:\Users\Administrador.VIWEB03\Desktop\Project\Systema\bin\Systema.dll.config
+C:\Users\Administrador.VIWEB03\Desktop\Project\Systema\bin\Systema.dll
+C:\Users\Administrador.VIWEB03\Desktop\Project\Systema\bin\Systema.pdb
+C:\Users\Administrador.VIWEB03\Desktop\Project\Systema\bin\BL.dll
+C:\Users\Administrador.VIWEB03\Desktop\Project\Systema\bin\Entity.dll
+C:\Users\Administrador.VIWEB03\Desktop\Project\Systema\bin\Datos.dll
+C:\Users\Administrador.VIWEB03\Desktop\Project\Systema\bin\BL.pdb
+C:\Users\Administrador.VIWEB03\Desktop\Project\Systema\bin\Entity.pdb
+C:\Users\Administrador.VIWEB03\Desktop\Project\Systema\bin\Datos.pdb
+C:\Users\Administrador.VIWEB03\Desktop\Project\Systema\obj\Debug\Systema.csprojResolveAssemblyReference.cache
+C:\Users\Administrador.VIWEB03\Desktop\Project\Systema\obj\Debug\Systema.dll
+C:\Users\Administrador.VIWEB03\Desktop\Project\Systema\obj\Debug\Systema.pdb
+C:\Users\User\Desktop\ultimo\Project\Systema\bin\Systema.dll.config
+C:\Users\User\Desktop\ultimo\Project\Systema\bin\Systema.dll
+C:\Users\User\Desktop\ultimo\Project\Systema\bin\Systema.pdb
+C:\Users\User\Desktop\ultimo\Project\Systema\bin\BL.dll
+C:\Users\User\Desktop\ultimo\Project\Systema\bin\Entity.dll
+C:\Users\User\Desktop\ultimo\Project\Systema\bin\Datos.dll
+C:\Users\User\Desktop\ultimo\Project\Systema\bin\BL.pdb
+C:\Users\User\Desktop\ultimo\Project\Systema\bin\Entity.pdb
+C:\Users\User\Desktop\ultimo\Project\Systema\bin\Datos.pdb
+C:\Users\User\Desktop\ultimo\Project\Systema\obj\Debug\Systema.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\ultimo\Project\Systema\obj\Debug\Systema.dll
+C:\Users\User\Desktop\ultimo\Project\Systema\obj\Debug\Systema.pdb
+D:\Proyecto VW\Net\Project\Systema\bin\Systema.dll.config
+D:\Proyecto VW\Net\Project\Systema\bin\Systema.dll
+D:\Proyecto VW\Net\Project\Systema\bin\Systema.pdb
+D:\Proyecto VW\Net\Project\Systema\bin\BL.dll
+D:\Proyecto VW\Net\Project\Systema\bin\Entity.dll
+D:\Proyecto VW\Net\Project\Systema\bin\Datos.dll
+D:\Proyecto VW\Net\Project\Systema\bin\BL.pdb
+D:\Proyecto VW\Net\Project\Systema\bin\Entity.pdb
+D:\Proyecto VW\Net\Project\Systema\bin\Datos.pdb
+D:\Proyecto VW\Net\Project\Systema\obj\Debug\Systema.csprojResolveAssemblyReference.cache
+D:\Proyecto VW\Net\Project\Systema\obj\Debug\Systema.dll
+D:\Proyecto VW\Net\Project\Systema\obj\Debug\Systema.pdb
+C:\Users\Royer\Desktop\REV\Project\Systema\bin\Systema.dll.config
+C:\Users\Royer\Desktop\REV\Project\Systema\bin\Systema.dll
+C:\Users\Royer\Desktop\REV\Project\Systema\bin\Systema.pdb
+C:\Users\Royer\Desktop\REV\Project\Systema\bin\BL.dll
+C:\Users\Royer\Desktop\REV\Project\Systema\bin\Entity.dll
+C:\Users\Royer\Desktop\REV\Project\Systema\bin\Datos.dll
+C:\Users\Royer\Desktop\REV\Project\Systema\bin\BL.pdb
+C:\Users\Royer\Desktop\REV\Project\Systema\bin\Entity.pdb
+C:\Users\Royer\Desktop\REV\Project\Systema\bin\Datos.pdb
+C:\Users\Royer\Desktop\REV\Project\Systema\obj\Debug\Systema.csprojResolveAssemblyReference.cache
+C:\Users\Royer\Desktop\REV\Project\Systema\obj\Debug\Systema.dll
+C:\Users\Royer\Desktop\REV\Project\Systema\obj\Debug\Systema.pdb

@@ -1,0 +1,48 @@
+C:\Users\Administrador.VIWEB03\Desktop\Project\Systema\bin\Systema.dll.config
+C:\Users\Administrador.VIWEB03\Desktop\Project\Systema\bin\Systema.dll
+C:\Users\Administrador.VIWEB03\Desktop\Project\Systema\bin\Systema.pdb
+C:\Users\Administrador.VIWEB03\Desktop\Project\Systema\bin\BL.dll
+C:\Users\Administrador.VIWEB03\Desktop\Project\Systema\bin\Entity.dll
+C:\Users\Administrador.VIWEB03\Desktop\Project\Systema\bin\Datos.dll
+C:\Users\Administrador.VIWEB03\Desktop\Project\Systema\bin\BL.pdb
+C:\Users\Administrador.VIWEB03\Desktop\Project\Systema\bin\Entity.pdb
+C:\Users\Administrador.VIWEB03\Desktop\Project\Systema\bin\Datos.pdb
+C:\Users\Administrador.VIWEB03\Desktop\Project\Systema\obj\Release\Systema.csprojResolveAssemblyReference.cache
+C:\Users\Administrador.VIWEB03\Desktop\Project\Systema\obj\Release\Systema.dll
+C:\Users\Administrador.VIWEB03\Desktop\Project\Systema\obj\Release\Systema.pdb
+C:\Users\User\Desktop\ultimo\Project\Systema\bin\Systema.dll.config
+C:\Users\User\Desktop\ultimo\Project\Systema\bin\Systema.dll
+C:\Users\User\Desktop\ultimo\Project\Systema\bin\Systema.pdb
+C:\Users\User\Desktop\ultimo\Project\Systema\bin\BL.dll
+C:\Users\User\Desktop\ultimo\Project\Systema\bin\Entity.dll
+C:\Users\User\Desktop\ultimo\Project\Systema\bin\Datos.dll
+C:\Users\User\Desktop\ultimo\Project\Systema\bin\BL.pdb
+C:\Users\User\Desktop\ultimo\Project\Systema\bin\Entity.pdb
+C:\Users\User\Desktop\ultimo\Project\Systema\bin\Datos.pdb
+C:\Users\User\Desktop\ultimo\Project\Systema\obj\Release\Systema.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\ultimo\Project\Systema\obj\Release\Systema.dll
+C:\Users\User\Desktop\ultimo\Project\Systema\obj\Release\Systema.pdb
+D:\Proyecto VW\Net\Project\Systema\bin\Systema.dll.config
+D:\Proyecto VW\Net\Project\Systema\bin\Systema.dll
+D:\Proyecto VW\Net\Project\Systema\bin\Systema.pdb
+D:\Proyecto VW\Net\Project\Systema\bin\BL.dll
+D:\Proyecto VW\Net\Project\Systema\bin\Entity.dll
+D:\Proyecto VW\Net\Project\Systema\bin\Datos.dll
+D:\Proyecto VW\Net\Project\Systema\bin\BL.pdb
+D:\Proyecto VW\Net\Project\Systema\bin\Entity.pdb
+D:\Proyecto VW\Net\Project\Systema\bin\Datos.pdb
+D:\Proyecto VW\Net\Project\Systema\obj\Release\Systema.csprojResolveAssemblyReference.cache
+D:\Proyecto VW\Net\Project\Systema\obj\Release\Systema.dll
+D:\Proyecto VW\Net\Project\Systema\obj\Release\Systema.pdb
+C:\Users\Royer\Desktop\REV\Project\Systema\bin\Systema.dll.config
+C:\Users\Royer\Desktop\REV\Project\Systema\bin\Systema.dll
+C:\Users\Royer\Desktop\REV\Project\Systema\bin\Systema.pdb
+C:\Users\Royer\Desktop\REV\Project\Systema\bin\BL.dll
+C:\Users\Royer\Desktop\REV\Project\Systema\bin\Entity.dll
+C:\Users\Royer\Desktop\REV\Project\Systema\bin\Datos.dll
+C:\Users\Royer\Desktop\REV\Project\Systema\bin\BL.pdb
+C:\Users\Royer\Desktop\REV\Project\Systema\bin\Entity.pdb
+C:\Users\Royer\Desktop\REV\Project\Systema\bin\Datos.pdb
+C:\Users\Royer\Desktop\REV\Project\Systema\obj\Release\Systema.csprojResolveAssemblyReference.cache
+C:\Users\Royer\Desktop\REV\Project\Systema\obj\Release\Systema.dll
+C:\Users\Royer\Desktop\REV\Project\Systema\obj\Release\Systema.pdb

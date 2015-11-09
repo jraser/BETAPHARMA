@@ -1,0 +1,167 @@
+﻿
+<style>
+    .dd3-content {
+        font-size: 9px;
+    }
+    fieldset.scheduler-border {
+        border: 1px groove #ddd !important;
+        padding: 0 1.4em 1.4em 1.4em !important;
+        margin: 0 0 1.5em 0 !important;
+        -webkit-box-shadow: 0px 0px 0px 0px #000;
+        box-shadow: 0px 0px 0px 0px #000;
+    }
+
+  
+
+
+</style>
+<div class="row">
+    <div class="col-md-12">
+        <div class="portlet box blue-dark">
+
+            <div class="portlet-title">
+                <div class="caption">
+                    <i class="fa fa-bar-chart-o"></i>Listado de Cuentas
+                </div>
+                <div class="tools">
+                    <a href="javascript:;" class="collapse">
+                    </a>
+
+                    <a href="javascript:;" class="reload">
+                    </a>
+
+                </div>
+
+
+            </div>
+            <div class="portlet-body">
+                <div class="row">
+                    <div class="col-md-7">
+                        <div class="dd " id="nestable_list_3">
+
+                          
+                            <div class="actions">
+                                <p class="input-group">
+
+                                    <input type="text" class="form-control" ng-model="parameters.Codigo"  ng-enter="List()" ng-blur="List()">
+
+                                    <span class="input-group-btn">
+                                       
+                                       
+                                        <a href="#" class="btn btn-default btn-sm" ng-click="delete()">
+                                            <i class="fa fa-close"></i>
+                                        </a>
+                                    </span>
+                                </p>
+
+                            </div>
+                            <ol class="dd-list">
+                                <li class="dd-item dd3-item" data-id="14" ng-repeat="Item in CuentaList ">
+
+                                    <div class="dd3-content" ng-class="Item.ID_PlanCuenta==Id?'bg-blue-hoki':''" ng-click="ItemClick(Item)">
+                                        {{Item.CodigoCuenta}}  {{Item.DescripcionCuenta}}
+                                    </div>
+                                   
+
+                                </li>
+
+                            </ol>
+
+
+                        </div>
+
+                    </div>
+                    <div class="col-md-5">
+                        <fieldset class="scheduler-border">
+
+                            <div class="control-group"></div>
+                                <form class="form-horizontal">
+                                    <div class="form-group">
+
+                </div>
+                <div class="form-group">
+
+                </div>
+                                    <div class="form-group">
+
+                                    </div>
+                                    <div class="form-group">
+                                       
+
+                                        <div class="col-md-4">
+                                            <div class="input-icon right">
+
+                                              Cuenta  {{Cuenta.CodigoCuentaPadre}}
+                                             
+                                               
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="input-icon right">
+                                                Nivel  {{Nivel}}
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <legend align="center"></legend>
+                                    <div class="form-group">
+                                        <label class="col-md-3 control-label">Codigo</label>
+
+                                        <div class="col-md-4">
+
+                                            <input type="text" class="form-control " ng-model="Cuenta.CodigoCuenta" name="CodigoCuenta">
+
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-md-3 control-label">Descripción</label>
+                                        <div class="col-md-9">
+
+
+                                            <input type="text" class="form-control " ng-model="Cuenta.DescripcionCuenta" name="DescripcionCuenta" required>
+
+                                        </div>
+
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="col-md-3 control-label">Nivel</label>
+                                        <div class="col-md-9">
+                                            <select class="form-control input-medium" ng-model="Cuenta.Nivel"
+                                                    ng-options="item.Codigo as item.ValorCadena for  item in niveles" name="Nivel" required></select>
+
+
+                                        </div>
+                                    </div>
+
+                                    <div class="form-actions">
+                                        <div class="row">
+                                            <div class="col-md-offset-3 col-md-9">
+                                                <button type="submit" class="btn blue-dark" ng-click="ok()">Grabar</button>
+                                                <button type="button" class="btn default" ng-click="cancel()">Cancelar</button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </form>
+                            
+                        </fieldset>
+                    </div>
+
+                </div>
+
+
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+</div>
+

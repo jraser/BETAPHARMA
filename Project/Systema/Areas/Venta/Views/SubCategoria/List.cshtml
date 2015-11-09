@@ -1,0 +1,132 @@
+﻿
+
+
+
+
+
+<div class="page-bar blue-dark">
+
+
+    <a ng-click="Create()" class="btn default">
+        Nuevo
+    </a>
+    <a ng-click="Edit()" class="btn default">
+        Modificar
+    </a>
+    <a ng-click="Delete()" class="btn default">
+        Desactivar
+    </a>
+</div>
+
+
+
+
+
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="portlet box blue-dark ">
+
+            <div class="portlet-title">
+                <div class="caption">
+                    <i class="fa fa-gift"></i>Búsqueda Sub Categoria
+                </div>
+                <div class="tools">
+                    <a href="" class="collapse">
+                    </a>
+
+                    <a href="" class="reload">
+                    </a>
+
+                </div>
+            </div>
+
+
+
+
+
+
+
+            <div class="portlet-body" id="blockui_List_portlet_body">
+                <div class="table-responsive">
+
+
+                    <div class="col-md-13 portlet-body  ">
+
+
+                        <form role="form" class="form-inline" >
+
+                            <div class="form-group">
+                                <label class="col-md-3 control-label">Categoria </label>
+                                <div class="col-md-3">
+                                    <select ng-model="parameters.ID_Categoria" class="form-control" ng-change="List()"
+                                            data-ng-options="a.ID_Categoria as a.Nombre for a in CategoriaList"></select>
+                                </div>
+                            </div>
+
+                          
+
+                        </form>
+
+
+                    </div>
+
+
+
+                    <div>
+                        <div class="row">
+
+                        </div>
+
+                    </div>
+                    <table class="table table-striped table-bordered table-hover">
+                        <thead>
+                            <tr>
+
+                                <th>
+                                    Nombre
+                                </th>
+                                <th>
+                                    Estado
+                                </th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr ng-repeat="item in SubCategoriaList">
+                                 
+                                <td> {{item.Nombre}} </td>
+                                <td> {{item.Estado}} </td>
+                                <td align="center">
+                                    <input type="checkbox"
+                                           ng-click="select(item.ID_SubCategoria)">
+                                </td>
+
+
+                            </tr>
+
+                        </tbody>
+                    </table>
+
+
+
+                </div>
+            </div>
+
+        </div>
+
+
+
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+

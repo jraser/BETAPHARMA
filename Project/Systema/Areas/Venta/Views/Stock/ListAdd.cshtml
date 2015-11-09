@@ -1,0 +1,76 @@
+﻿
+<div class="portlet-body">
+    <div class="table-responsive">
+
+
+        <div class="col-md-12 portlet-body  ">
+
+            <div class="modal-header">
+                <h3 class="modal-title">Búsqueda de Producto</h3>
+            </div>
+            <div class="modal-body">
+
+                <form role="form">
+                    <div class="form-group">
+                        <label class="control-label">Descripción</label>
+                        <input type="text" class="form-control input-medium"
+                               ng-model="parameters.Descripcion">
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn green" ng-click="List()">Buscar</button>
+                    </div>
+                </form>
+            </div>
+            <table class="table <!--table-striped--> table-bordered table-advance table-hover">
+                <thead>
+                    <tr>
+                        <th>
+                            Codigo
+                        </th>
+                        <th>
+                            Descripción
+                        </th>
+                        <th>
+                            Lote
+                        </th>
+                        <th>
+                            Categoria
+                        </th>
+                        <th>
+                            Sub Categoria
+                        </th>
+                        <th>
+                            Precio Compra
+                        </th>
+                        <th>
+                            Precio Venta
+                        </th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr ng-repeat="item in StockAdd">
+
+                        <td>{{item.Codigo_Producto}} </td>
+                        <td>{{item.Descripcion_Producto}}</td>
+                        <td>{{item.Lote}}</td>
+                        <td>{{item.Categoria}}</td>
+                        <td>{{item.SubCategoria}}</td>
+                        <td>{{item.PC}}</td>
+                        <td>{{item.PV}}</td>
+                        <td align="center">
+                            <input type="checkbox"
+                                   ng-model="item.checked">
+                        </td>
+                    </tr>
+
+                </tbody>
+            </table>
+            <div class="modal-footer">
+                <button class="btn btn-primary" ng-click="ok()">Aceptar</button>
+                <button class="btn btn-warning" ng-click="cancel()">Cancelar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
